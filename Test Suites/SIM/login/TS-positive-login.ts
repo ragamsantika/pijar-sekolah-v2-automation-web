@@ -1,0 +1,98 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestSuiteEntity>
+   <description></description>
+   <name>TS-positive-login</name>
+   <tag></tag>
+   <isRerun>false</isRerun>
+   <mailRecipient></mailRecipient>
+   <numberOfRerun>0</numberOfRerun>
+   <pageLoadTimeout>30</pageLoadTimeout>
+   <pageLoadTimeoutDefault>true</pageLoadTimeoutDefault>
+   <rerunFailedTestCasesOnly>false</rerunFailedTestCasesOnly>
+   <rerunImmediately>false</rerunImmediately>
+   <testSuiteGuid>e7495a71-10ae-47dd-93b8-ef6a51ebe225</testSuiteGuid>
+   <testCaseLink>
+      <guid>62ccd8bc-6deb-4886-bcb0-cd1b791d1a73</guid>
+      <isReuseDriver>false</isReuseDriver>
+      <isRun>true</isRun>
+      <testCaseId>Test Cases/CustomKeyword/Open Browser</testCaseId>
+   </testCaseLink>
+   <testCaseLink>
+      <guid>ff81d62d-b310-4ea0-a5fd-9fd275df3f5b</guid>
+      <isReuseDriver>false</isReuseDriver>
+      <isRun>true</isRun>
+      <testCaseId>Test Cases/CustomKeyword/Navigate to URL SIM</testCaseId>
+   </testCaseLink>
+   <testCaseLink>
+      <guid>3b2b2431-5905-4965-b32a-485c0b0b7470</guid>
+      <isReuseDriver>false</isReuseDriver>
+      <isRun>true</isRun>
+      <testCaseId>Test Cases/SIM/login/positive cases/TC001-Pastikan admin bisa login</testCaseId>
+      <variableLink>
+         <testDataLinkId></testDataLinkId>
+         <type>DEFAULT</type>
+         <value></value>
+         <variableId>b2ec5de0-110a-4d8e-8125-4bdcee07185f</variableId>
+      </variableLink>
+      <variableLink>
+         <testDataLinkId></testDataLinkId>
+         <type>DEFAULT</type>
+         <value></value>
+         <variableId>98958674-7371-4675-a36b-07727b065d71</variableId>
+      </variableLink>
+   </testCaseLink>
+   <testCaseLink>
+      <guid>0ee81ec4-e813-462b-ad3c-b32584dc3449</guid>
+      <isReuseDriver>false</isReuseDriver>
+      <isRun>true</isRun>
+      <testCaseId>Test Cases/SIM/login/positive cases/TC002-Pastikan admin bisa logout</testCaseId>
+      <variableLink>
+         <testDataLinkId></testDataLinkId>
+         <type>DEFAULT</type>
+         <value></value>
+         <variableId>3223056b-75ae-481a-994e-85eb2e3d8436</variableId>
+      </variableLink>
+      <variableLink>
+         <testDataLinkId></testDataLinkId>
+         <type>DEFAULT</type>
+         <value></value>
+         <variableId>e0dfd9a7-528a-49e5-88ab-0fe2ea8fe992</variableId>
+      </variableLink>
+   </testCaseLink>
+   <testCaseLink>
+      <guid>4da45624-a419-4c35-936e-c2d7bdee874f</guid>
+      <isReuseDriver>false</isReuseDriver>
+      <isRun>true</isRun>
+      <testCaseId>Test Cases/SIM/login/positive cases/TC003-Pastikan guru bisa login</testCaseId>
+      <variableLink>
+         <testDataLinkId></testDataLinkId>
+         <type>DEFAULT</type>
+         <value></value>
+         <variableId>11b6c22f-72f1-489d-88dd-c4b5be9a16c5</variableId>
+      </variableLink>
+      <variableLink>
+         <testDataLinkId></testDataLinkId>
+         <type>DEFAULT</type>
+         <value></value>
+         <variableId>ace95be9-36ab-429c-938e-7049893848fd</variableId>
+      </variableLink>
+   </testCaseLink>
+   <testCaseLink>
+      <guid>02d5157e-18e3-4fc5-9418-e88c4227b5e9</guid>
+      <isReuseDriver>false</isReuseDriver>
+      <isRun>true</isRun>
+      <testCaseId>Test Cases/SIM/login/positive cases/TC004-Pastikan guru bisa logout</testCaseId>
+      <variableLink>
+         <testDataLinkId></testDataLinkId>
+         <type>DEFAULT</type>
+         <value></value>
+         <variableId>04c4c9ed-29b1-48be-9723-e6dd769e78db</variableId>
+      </variableLink>
+      <variableLink>
+         <testDataLinkId></testDataLinkId>
+         <type>DEFAULT</type>
+         <value></value>
+         <variableId>e176a18c-b009-4982-b07f-59b7e512d943</variableId>
+      </variableLink>
+   </testCaseLink>
+</TestSuiteEntity>

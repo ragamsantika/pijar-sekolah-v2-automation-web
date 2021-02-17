@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description>User bisa menambahkan data dengan import data</description>
+   <name>TC002-Pastikan user dapat menampahkan data dengan import data</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>bbb22f49-6b4b-4801-bf5d-bac2e805617a</testCaseGuid>
+</TestCaseEntity>

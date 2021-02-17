@@ -16,12 +16,6 @@ import com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords as WebUI
 import com.kms.katalon.core.windows.keyword.WindowsBuiltinKeywords as Windows
 import internal.GlobalVariable as GlobalVariable
 
-WebUI.openBrowser('')
-
-WebUI.navigateToUrl('http://core-tribe-edu-student-web-dev.vsan-apps.playcourt.id/login')
-
-WebUI.maximizeWindow()
-
 WebUI.setText(findTestObject('siswa/Login/input_Ingat saya_username'), '9796')
 
 WebUI.setText(findTestObject('siswa/Login/input_Ingat saya_password'), '9796')
@@ -29,6 +23,4 @@ WebUI.setText(findTestObject('siswa/Login/input_Ingat saya_password'), '9796')
 WebUI.click(findTestObject('siswa/Login/button_Masuk'))
 
 WebUI.delay(5)
-
-WebUI.closeBrowser()
 

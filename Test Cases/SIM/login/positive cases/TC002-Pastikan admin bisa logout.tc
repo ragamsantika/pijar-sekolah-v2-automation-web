@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description>User admin dapat logout pijar sekolah</description>
+   <name>TC002-Pastikan admin bisa logout</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>77c0093b-93ab-453e-9c74-5f92e23507ae</testCaseGuid>
+   <variable>
+      <defaultValue>'pijarsekolahv2@gmail.com'</defaultValue>
+      <description></description>
+      <id>3223056b-75ae-481a-994e-85eb2e3d8436</id>
+      <masked>false</masked>
+      <name>username</name>
+   </variable>
+   <variable>
+      <defaultValue>'password'</defaultValue>
+      <description></description>
+      <id>e0dfd9a7-528a-49e5-88ab-0fe2ea8fe992</id>
+      <masked>false</masked>
+      <name>password</name>
+   </variable>
+</TestCaseEntity>

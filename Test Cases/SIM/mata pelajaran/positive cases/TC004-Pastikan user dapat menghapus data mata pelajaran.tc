@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>TC004-Pastikan user dapat menghapus data mata pelajaran</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>cb077332-7762-4cfb-8cfd-23bd92bc5bca</testCaseGuid>
+</TestCaseEntity>

@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description>User guru dapat login pijar sekolah</description>
+   <name>TC003-Pastikan guru bisa login</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>d9dfdf63-c8ea-4cf4-b750-9d85700287a2</testCaseGuid>
+   <variable>
+      <defaultValue>'teacher01@gmail.com'</defaultValue>
+      <description></description>
+      <id>11b6c22f-72f1-489d-88dd-c4b5be9a16c5</id>
+      <masked>false</masked>
+      <name>username</name>
+   </variable>
+   <variable>
+      <defaultValue>'010100'</defaultValue>
+      <description></description>
+      <id>ace95be9-36ab-429c-938e-7049893848fd</id>
+      <masked>false</masked>
+      <name>password</name>
+   </variable>
+</TestCaseEntity>
