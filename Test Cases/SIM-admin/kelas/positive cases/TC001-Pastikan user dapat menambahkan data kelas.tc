@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <TestCaseEntity>
-   <description></description>
+   <description>User add data kelas</description>
    <name>TC001-Pastikan user dapat menambahkan data kelas</name>
    <tag></tag>
    <comment></comment>

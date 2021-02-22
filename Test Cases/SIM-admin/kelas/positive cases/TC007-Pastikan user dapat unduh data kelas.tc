@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <TestCaseEntity>
-   <description></description>
+   <description>User unduh data kelas</description>
    <name>TC007-Pastikan user dapat unduh data kelas</name>
    <tag></tag>
    <comment></comment>
