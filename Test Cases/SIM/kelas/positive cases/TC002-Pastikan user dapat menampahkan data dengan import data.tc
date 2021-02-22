@@ -5,4 +5,11 @@
    <tag></tag>
    <comment></comment>
    <testCaseGuid>bbb22f49-6b4b-4801-bf5d-bac2e805617a</testCaseGuid>
+   <variable>
+      <defaultValue>'C:\\\\Users\\\\Rahmat Prastyo\\\\Documents\\\\file pijar sekolah\\\\format-upload-kelas.xlsx'</defaultValue>
+      <description></description>
+      <id>d4f95238-9c5e-4cd3-a05c-86bcfce1fb1b</id>
+      <masked>false</masked>
+      <name>file</name>
+   </variable>
 </TestCaseEntity>

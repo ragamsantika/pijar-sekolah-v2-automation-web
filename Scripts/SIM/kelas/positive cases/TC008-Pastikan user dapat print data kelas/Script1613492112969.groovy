@@ -23,6 +23,8 @@ WebUI.callTestCase(findTestCase('CustomKeyword/Navigate to URL SIM'), [:], Failu
 WebUI.callTestCase(findTestCase('SIM/login/positive cases/TC001-Pastikan admin bisa login'), [('username') : 'pijarsekolahv2@gmail.com'
         , ('password') : 'password'], FailureHandling.STOP_ON_FAILURE)
 
+WebUI.click(findTestObject('admin/Page_Beranda - PIJAR/span_Data Siswa'))
+
 WebUI.click(findTestObject('admin/Page_Beranda - PIJAR/span_Data Kelas'))
 
 WebUI.click(findTestObject('admin/Page_Data Kelas - PIJAR/div_Unduh'))

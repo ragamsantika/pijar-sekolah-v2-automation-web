@@ -16,12 +16,7 @@ import com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords as WebUI
 import com.kms.katalon.core.windows.keyword.WindowsBuiltinKeywords as Windows
 import internal.GlobalVariable as GlobalVariable
 
-WebUI.callTestCase(findTestCase('CustomKeyword/Open Browser'), [:], FailureHandling.STOP_ON_FAILURE)
-
-WebUI.callTestCase(findTestCase('CustomKeyword/Navigate to URL SIM'), [:], FailureHandling.STOP_ON_FAILURE)
-
-WebUI.callTestCase(findTestCase('SIM/login/positive cases/TC001-Pastikan admin bisa login'), [('username') : 'pijarsekolahv2@gmail.com'
-        , ('password') : 'password'], FailureHandling.STOP_ON_FAILURE)
+WebUI.click(findTestObject('admin/Page_Beranda - PIJAR/span_Data Siswa'))
 
 WebUI.click(findTestObject('admin/Page_Beranda - PIJAR/span_Data Kelas'))
 
@@ -31,5 +26,5 @@ WebUI.verifyElementText(findTestObject('admin/Page_Data Kelas - PIJAR/Delete Kel
 
 WebUI.click(findTestObject('admin/Page_Data Kelas - PIJAR/Delete Kelas/button_Hapus'))
 
-WebUI.verifyElementText(findTestObject('admin/Page_Data Kelas - PIJAR/h2_Sukses'), 'Sukses!')
+WebUI.verifyElementText(findTestObject('null'), 'Sukses!')
 

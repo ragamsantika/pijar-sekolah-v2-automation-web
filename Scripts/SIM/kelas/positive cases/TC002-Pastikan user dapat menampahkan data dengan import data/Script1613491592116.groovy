@@ -16,3 +16,19 @@ import com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords as WebUI
 import com.kms.katalon.core.windows.keyword.WindowsBuiltinKeywords as Windows
 import internal.GlobalVariable as GlobalVariable
 
+WebUI.click(findTestObject('admin/Page_Beranda - PIJAR/span_Data Siswa'))
+
+WebUI.click(findTestObject('admin/Page_Beranda - PIJAR/span_Data Kelas'))
+
+WebUI.click(findTestObject('admin/Page_Data Kelas - PIJAR/button_Tambah Data'))
+
+WebUI.focus(findTestObject('admin/Page_Data Kelas - PIJAR/Upload file/div___25JKTDiGAsl_gfWaijz06K'))
+
+WebUI.uploadFile(findTestObject('admin/Page_Data Kelas - PIJAR/Upload file/div___25JKTDiGAsl_gfWaijz06K - Copy'), file)
+
+WebUI.verifyElementText(findTestObject('admin/Page_Data Kelas - PIJAR/h3_Sukses'), 'Sukses!')
+
+WebUI.verifyElementText(findTestObject('admin/Page_Data Kelas - PIJAR/p_Kelas berhasil disimpan'), 'Kelas berhasil disimpan.')
+
+WebUI.click(findTestObject('admin/Page_Data Kelas - PIJAR/button_OK'))
+
