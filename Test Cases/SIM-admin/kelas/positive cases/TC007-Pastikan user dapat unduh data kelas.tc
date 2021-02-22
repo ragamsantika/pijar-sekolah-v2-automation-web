@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description>User unduh data kelas</description>
+   <name>TC007-Pastikan user dapat unduh data kelas</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>5dc41186-347a-4f5c-bab1-71fd1539e8e2</testCaseGuid>
+</TestCaseEntity>
