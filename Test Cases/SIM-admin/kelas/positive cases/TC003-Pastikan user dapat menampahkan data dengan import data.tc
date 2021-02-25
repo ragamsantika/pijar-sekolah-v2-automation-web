@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description>User bisa menambahkan data dengan import data</description>
+   <name>TC003-Pastikan user dapat menampahkan data dengan import data</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>bbb22f49-6b4b-4801-bf5d-bac2e805617a</testCaseGuid>
+   <variable>
+      <defaultValue>'C:\\\\Users\\\\Rahmat Prastyo\\\\Documents\\\\file pijar sekolah\\\\format-upload-kelas.xlsx'</defaultValue>
+      <description></description>
+      <id>25dfa0ec-8127-47b7-ad58-9c33560da1c7</id>
+      <masked>false</masked>
+      <name>file</name>
+   </variable>
+</TestCaseEntity>

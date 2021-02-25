@@ -3,19 +3,15 @@
    <description></description>
    <name>input_Tambah Data_search</name>
    <tag></tag>
-   <elementGuidId>9375dc19-d731-4a6d-95a3-d17e8341f43e</elementGuidId>
+   <elementGuidId>1a50eb29-b39d-4785-9f97-7128197be72f</elementGuidId>
    <selectorCollection>
-      <entry>
-         <key>XPATH</key>
-         <value>//input[@id='search']</value>
-      </entry>
       <entry>
          <key>CSS</key>
          <value>#search</value>
       </entry>
       <entry>
-         <key>BASIC</key>
-         <value>//*[@id = 'search' and @placeholder = 'Cari Data' and @type = 'text']</value>
+         <key>XPATH</key>
+         <value>//input[@id='search']</value>
       </entry>
    </selectorCollection>
    <selectorMethod>XPATH</selectorMethod>
@@ -32,7 +28,7 @@
       <matchCondition>equals</matchCondition>
       <name>class</name>
       <type>Main</type>
-      <value>_1ygKZIaCcVZzgM6mLfocI6</value>
+      <value>RrzClX1eDOEasTVQBngfZ</value>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -46,7 +42,7 @@
       <matchCondition>equals</matchCondition>
       <name>placeholder</name>
       <type>Main</type>
-      <value>Cari Data</value>
+      <value>Cari data...</value>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -74,7 +70,7 @@
       <matchCondition>equals</matchCondition>
       <name>xpath:idRelative</name>
       <type>Main</type>
-      <value>//div[@id='app']/main/div/span[8]/div/div/div/div[2]/div/div/input</value>
+      <value>//div[@id='app']/main/div/span[9]/div/div/div[2]/div/div/input</value>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>

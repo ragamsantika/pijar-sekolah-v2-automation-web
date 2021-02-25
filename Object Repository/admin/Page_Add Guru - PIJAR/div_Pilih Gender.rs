@@ -10,11 +10,15 @@
          <value>div.select___value-container.css-1hwfws3</value>
       </entry>
       <entry>
+         <key>BASIC</key>
+         <value>//*[(text() = 'Pilih Gender' or . = 'Pilih Gender')]</value>
+      </entry>
+      <entry>
          <key>XPATH</key>
          <value>//div[@id='app']/main/div/div/form/div/div[5]/div[2]/div/div/div</value>
       </entry>
    </selectorCollection>
-   <selectorMethod>XPATH</selectorMethod>
+   <selectorMethod>BASIC</selectorMethod>
    <useRalativeImagePath>true</useRalativeImagePath>
    <webElementProperties>
       <isSelected>false</isSelected>

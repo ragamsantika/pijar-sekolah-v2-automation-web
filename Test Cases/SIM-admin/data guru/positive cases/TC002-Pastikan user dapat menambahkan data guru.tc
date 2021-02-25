@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>TC002-Pastikan user dapat menambahkan data guru</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>a6c6b51a-6de7-48cf-9f14-5b53e731fdfd</testCaseGuid>
+</TestCaseEntity>
