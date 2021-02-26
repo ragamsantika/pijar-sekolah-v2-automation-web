@@ -22,13 +22,20 @@ WebUI.click(findTestObject('admin/Page_Beranda - PIJAR/span_Data Guru'))
 'User click Profil Guru on side menu'
 WebUI.click(findTestObject('admin/Page_Beranda - PIJAR/span_Profil Guru'))
 
+'User click pagination no 2'
 WebUI.click(findTestObject('admin/Page_Daftar Guru - PIJAR/button_2'))
 
+'User click pagination \'<\''
 WebUI.click(findTestObject('admin/Page_Daftar Guru - PIJAR/button_paginationPrevious'))
 
+'User click pagination \'>\''
 WebUI.click(findTestObject('admin/Page_Daftar Guru - PIJAR/button_paginationNext'))
 
+'User click pagination \'<<\''
 WebUI.click(findTestObject('admin/Page_Daftar Guru - PIJAR/button_paginationFirst'))
 
+'User click pagination \'>>\''
 WebUI.click(findTestObject('admin/Page_Daftar Guru - PIJAR/button_paginationLast'))
+
+WebUI.refresh()
 

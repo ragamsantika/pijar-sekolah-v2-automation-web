@@ -18,8 +18,10 @@ import internal.GlobalVariable as GlobalVariable
 
 WebUI.refresh()
 
+'User input text username'
 WebUI.setText(findTestObject('admin/Page_Login/input_Ingat saya_username'), username)
 
+'User input text password'
 WebUI.setText(findTestObject('admin/Page_Login/input_Ingat saya_password'), password)
 
 WebUI.click(findTestObject('admin/Page_Login/button_Masuk'))

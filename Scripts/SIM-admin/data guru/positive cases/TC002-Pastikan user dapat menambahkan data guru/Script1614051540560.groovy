@@ -51,9 +51,11 @@ WebUI.click(findTestObject('admin/Page_Add Guru - PIJAR/div_Pilih Mata Pelajaran
 
 WebUI.click(findTestObject('admin/Page_Add Guru - PIJAR/div_Matematika'))
 
-WebUI.setText(findTestObject('admin/Page_Add Guru - PIJAR/input__nik'), '1213abc')
+WebUI.setText(findTestObject('admin/Page_Add Guru - PIJAR/input__nik'), '1234567812345678')
 
 WebUI.setText(findTestObject('admin/Page_Add Guru - PIJAR/textarea__alamat'), 'Jalan perjuangan')
 
 WebUI.setText(findTestObject('admin/Page_Add Guru - PIJAR/input__noTelp'), '081213124547')
+
+WebUI.click(findTestObject('admin/Page_Add Guru - PIJAR/button_Simpan'))
 

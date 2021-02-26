@@ -59,40 +59,4 @@
          <variableId>e0dfd9a7-528a-49e5-88ab-0fe2ea8fe992</variableId>
       </variableLink>
    </testCaseLink>
-   <testCaseLink>
-      <guid>4da45624-a419-4c35-936e-c2d7bdee874f</guid>
-      <isReuseDriver>false</isReuseDriver>
-      <isRun>true</isRun>
-      <testCaseId>Test Cases/SIM-admin/login/positive cases/TC003-Pastikan guru bisa login</testCaseId>
-      <variableLink>
-         <testDataLinkId></testDataLinkId>
-         <type>DEFAULT</type>
-         <value></value>
-         <variableId>11b6c22f-72f1-489d-88dd-c4b5be9a16c5</variableId>
-      </variableLink>
-      <variableLink>
-         <testDataLinkId></testDataLinkId>
-         <type>DEFAULT</type>
-         <value></value>
-         <variableId>ace95be9-36ab-429c-938e-7049893848fd</variableId>
-      </variableLink>
-   </testCaseLink>
-   <testCaseLink>
-      <guid>02d5157e-18e3-4fc5-9418-e88c4227b5e9</guid>
-      <isReuseDriver>false</isReuseDriver>
-      <isRun>true</isRun>
-      <testCaseId>Test Cases/SIM-admin/login/positive cases/TC004-Pastikan guru bisa logout</testCaseId>
-      <variableLink>
-         <testDataLinkId></testDataLinkId>
-         <type>DEFAULT</type>
-         <value></value>
-         <variableId>04c4c9ed-29b1-48be-9723-e6dd769e78db</variableId>
-      </variableLink>
-      <variableLink>
-         <testDataLinkId></testDataLinkId>
-         <type>DEFAULT</type>
-         <value></value>
-         <variableId>e176a18c-b009-4982-b07f-59b7e512d943</variableId>
-      </variableLink>
-   </testCaseLink>
 </TestSuiteEntity>

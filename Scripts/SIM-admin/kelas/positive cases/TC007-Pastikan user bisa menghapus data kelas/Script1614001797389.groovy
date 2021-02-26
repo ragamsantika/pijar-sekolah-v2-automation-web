@@ -28,6 +28,8 @@ WebUI.click(findTestObject('admin/Page_Data Kelas - PIJAR/Delete Kelas/button_Ha
 
 WebUI.verifyElementText(findTestObject('admin/Page_Data Kelas - PIJAR/h3_Sukses'), 'Sukses!')
 
+WebUI.verifyElementText(findTestObject('admin/Page_Data Kelas - PIJAR/p_Kelas berhasil dihapus'), 'Kelas berhasil dihapus')
+
 WebUI.click(findTestObject('admin/Page_Data Kelas - PIJAR/button_OK'))
 
 WebUI.refresh()

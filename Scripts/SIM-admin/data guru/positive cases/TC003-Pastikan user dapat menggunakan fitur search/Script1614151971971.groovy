@@ -32,5 +32,3 @@ WebUI.click(findTestObject('admin/Page_Beranda - PIJAR/span_Profil Guru'))
 
 WebUI.setText(findTestObject('admin/Page_Daftar Guru - PIJAR/input_Tambah Data_search'), 'Rahmat')
 
-WebUI.sendKeys(findTestObject('admin/Page_Daftar Guru - PIJAR/input_Tambah Data_search'), Keys.chord(Keys.ENTER))
-
