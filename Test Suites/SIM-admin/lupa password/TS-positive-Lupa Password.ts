@@ -27,6 +27,6 @@
       <guid>e48be0cf-656e-45ff-b023-fcd327dc0641</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
-      <testCaseId>Test Cases/SIM-admin/forgot password/positive cases/TC001-Lupa Password</testCaseId>
+      <testCaseId>Test Cases/SIM-admin/forgot password/positive cases/Lupa Password</testCaseId>
    </testCaseLink>
 </TestSuiteEntity>

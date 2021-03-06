@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>div_Matematika_select___indicator select___dropdown-indicator css-tlfecz-indicatorContainer</name>
+   <tag></tag>
+   <elementGuidId>c30bf41a-e5ac-4f1a-9add-2584b3796b73</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>XPATH</key>
+         <value>//div[@id='app']/main/div/div/div[2]/form/div/div[7]/div[2]/div/div/div[2]/div[2]</value>
+      </entry>
+      <entry>
+         <key>CSS</key>
+         <value></value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>div</value>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>aria-hidden</name>
+      <type>Main</type>
+      <value>true</value>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>class</name>
+      <type>Main</type>
+      <value>select___indicator select___dropdown-indicator css-tlfecz-indicatorContainer</value>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>id(&quot;app&quot;)/main[@class=&quot;aNWPbcduxteqYl7DfDJiY&quot;]/div[@class=&quot;container mx-auto&quot;]/div[1]/div[@class=&quot;_1sv9MCwqsbhSJBRi17TkPs&quot;]/form[@class=&quot;flex flex-wrap&quot;]/div[@class=&quot;w-full lg:w-1/2 lg:p-2&quot;]/div[@class=&quot;ilTa_eMz24ZEtPa_u7bU1&quot;]/div[@class=&quot;_1yQ_7mTXH6tmgXBExyiVX5&quot;]/div[@class=&quot;bordered block w-full css-2b097c-container&quot;]/div[@class=&quot;select___control css-yk16xz-control&quot;]/div[@class=&quot;select___indicators css-1wy0on6&quot;]/div[@class=&quot;select___indicator select___dropdown-indicator css-tlfecz-indicatorContainer&quot;]</value>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:idRelative</name>
+      <type>Main</type>
+      <value>//div[@id='app']/main/div/div/div[2]/form/div/div[7]/div[2]/div/div/div[2]/div[2]</value>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Matematika'])[1]/following::div[7]</value>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='*'])[7]/following::div[13]</value>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='*'])[8]/preceding::div[1]</value>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <type>Main</type>
+      <value>//div/div/div[2]/div[2]</value>
+   </webElementXpaths>
+</WebElementEntity>

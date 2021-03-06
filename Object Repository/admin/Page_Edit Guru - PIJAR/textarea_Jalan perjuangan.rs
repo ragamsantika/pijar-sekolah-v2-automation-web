@@ -1,128 +1,117 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <WebElementEntity>
    <description></description>
-   <name>button_Kembali</name>
+   <name>textarea_Jalan perjuangan</name>
    <tag></tag>
-   <elementGuidId>229bb151-05e6-43ee-838b-7a4e4e9800d5</elementGuidId>
+   <elementGuidId>b2aaa13b-d044-44d8-a561-e753adbbdc2b</elementGuidId>
    <selectorCollection>
       <entry>
          <key>XPATH</key>
-         <value>//button[@id='button-1']</value>
+         <value>//textarea[@name='alamat']</value>
       </entry>
       <entry>
          <key>CSS</key>
-         <value>#button-1</value>
-      </entry>
-      <entry>
-         <key>BASIC</key>
-         <value>//*[@id = 'button-1' and @type = 'button' and (text() = ' Kembali ' or . = ' Kembali ')]</value>
+         <value>textarea[name=&quot;alamat&quot;]</value>
       </entry>
    </selectorCollection>
-   <selectorMethod>BASIC</selectorMethod>
+   <selectorMethod>XPATH</selectorMethod>
    <useRalativeImagePath>true</useRalativeImagePath>
    <webElementProperties>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>tag</name>
       <type>Main</type>
-      <value>button</value>
+      <value>textarea</value>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>class</name>
       <type>Main</type>
-      <value>btn no-margin w-32 md:wide text-center</value>
+      <value>bordered block w-full</value>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>cols</name>
+      <type>Main</type>
+      <value>30</value>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
-      <name>id</name>
+      <name>name</name>
       <type>Main</type>
-      <value>button-1</value>
+      <value>alamat</value>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
-      <name>type</name>
+      <name>placeholder</name>
       <type>Main</type>
-      <value>button</value>
+      <value>Masukkan Alamat</value>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>rows</name>
+      <type>Main</type>
+      <value>4</value>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
       <name>text</name>
       <type>Main</type>
-      <value> Kembali </value>
+      <value>Jalan perjuangan</value>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath</name>
       <type>Main</type>
-      <value>id(&quot;button-1&quot;)</value>
+      <value>id(&quot;app&quot;)/main[@class=&quot;aNWPbcduxteqYl7DfDJiY&quot;]/div[@class=&quot;container mx-auto&quot;]/div[1]/div[@class=&quot;_1sv9MCwqsbhSJBRi17TkPs&quot;]/form[@class=&quot;flex flex-wrap&quot;]/div[@class=&quot;w-full lg:w-1/2 lg:p-2&quot;]/div[@class=&quot;T1qw8To-OEcIu1HfcexZN&quot;]/div[@class=&quot;_3inwpJiyFhEIWL0zO__m_Y&quot;]/textarea[@class=&quot;bordered block w-full&quot;]</value>
    </webElementProperties>
    <webElementXpaths>
       <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:attributes</name>
       <type>Main</type>
-      <value>//button[@id='button-1']</value>
+      <value>//textarea[@name='alamat']</value>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:idRelative</name>
       <type>Main</type>
-      <value>//div[@id='app']/main/div/div/div[3]/div/table/tbody/tr[11]/td[3]/button</value>
+      <value>//div[@id='app']/main/div/div/div[2]/form/div[2]/div[2]/div[2]/textarea</value>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:neighbor</name>
       <type>Main</type>
-      <value>(.//*[normalize-space(text()) and normalize-space(.)='Ilmu Pengetahuan Sosial, Fisika'])[1]/following::button[1]</value>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='*'])[9]/following::textarea[1]</value>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:neighbor</name>
       <type>Main</type>
-      <value>(.//*[normalize-space(text()) and normalize-space(.)=':'])[10]/following::button[1]</value>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='*'])[10]/preceding::textarea[1]</value>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:neighbor</name>
       <type>Main</type>
-      <value>(.//*[normalize-space(text()) and normalize-space(.)='Capture object:'])[1]/preceding::button[1]</value>
-   </webElementXpaths>
-   <webElementXpaths>
-      <isSelected>false</isSelected>
-      <matchCondition>equals</matchCondition>
-      <name>xpath:neighbor</name>
-      <type>Main</type>
-      <value>(.//*[normalize-space(text()) and normalize-space(.)='Alt'])[1]/preceding::button[1]</value>
-   </webElementXpaths>
-   <webElementXpaths>
-      <isSelected>false</isSelected>
-      <matchCondition>equals</matchCondition>
-      <name>xpath:neighbor</name>
-      <type>Main</type>
-      <value>//*/text()[normalize-space(.)='Kembali']/parent::*</value>
+      <value>//*/text()[normalize-space(.)='Jalan perjuangan']/parent::*</value>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:position</name>
       <type>Main</type>
-      <value>//td[3]/button</value>
-   </webElementXpaths>
-   <webElementXpaths>
-      <isSelected>false</isSelected>
-      <matchCondition>equals</matchCondition>
-      <name>xpath:neighbor</name>
-      <type>Main</type>
-      <value>(.//*[normalize-space(text()) and normalize-space(.)='Fisika'])[1]/following::button[1]</value>
+      <value>//textarea</value>
    </webElementXpaths>
 </WebElementEntity>

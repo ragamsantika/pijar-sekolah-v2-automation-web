@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <TestSuiteEntity>
    <description></description>
-   <name>TS-positive-login</name>
+   <name>TC-positive-add guru</name>
    <tag></tag>
    <isRerun>false</isRerun>
    <mailRecipient></mailRecipient>
@@ -10,21 +10,21 @@
    <pageLoadTimeoutDefault>true</pageLoadTimeoutDefault>
    <rerunFailedTestCasesOnly>false</rerunFailedTestCasesOnly>
    <rerunImmediately>false</rerunImmediately>
-   <testSuiteGuid>e7495a71-10ae-47dd-93b8-ef6a51ebe225</testSuiteGuid>
+   <testSuiteGuid>0b6ddb7a-8a35-47c8-94d4-5f356764a31a</testSuiteGuid>
    <testCaseLink>
-      <guid>62ccd8bc-6deb-4886-bcb0-cd1b791d1a73</guid>
+      <guid>fa38a71c-463d-4d6d-844f-018a4745e3ce</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
       <testCaseId>Test Cases/CustomKeyword/Open Browser</testCaseId>
    </testCaseLink>
    <testCaseLink>
-      <guid>ff81d62d-b310-4ea0-a5fd-9fd275df3f5b</guid>
+      <guid>7596e897-c34e-4bcf-a124-56ca1d7ed1bc</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
       <testCaseId>Test Cases/CustomKeyword/Navigate to URL SIM</testCaseId>
    </testCaseLink>
    <testCaseLink>
-      <guid>3b2b2431-5905-4965-b32a-485c0b0b7470</guid>
+      <guid>21066941-ee38-4861-85ab-5d650f4f07b5</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
       <testCaseId>Test Cases/SIM-admin/login/positive cases/Pastikan admin bisa login</testCaseId>
@@ -42,21 +42,9 @@
       </variableLink>
    </testCaseLink>
    <testCaseLink>
-      <guid>0ee81ec4-e813-462b-ad3c-b32584dc3449</guid>
+      <guid>049cc821-076c-48e2-9f3b-dc000e33706d</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
-      <testCaseId>Test Cases/SIM-admin/login/positive cases/Pastikan admin bisa logout</testCaseId>
-      <variableLink>
-         <testDataLinkId></testDataLinkId>
-         <type>DEFAULT</type>
-         <value></value>
-         <variableId>3223056b-75ae-481a-994e-85eb2e3d8436</variableId>
-      </variableLink>
-      <variableLink>
-         <testDataLinkId></testDataLinkId>
-         <type>DEFAULT</type>
-         <value></value>
-         <variableId>e0dfd9a7-528a-49e5-88ab-0fe2ea8fe992</variableId>
-      </variableLink>
+      <testCaseId>Test Cases/SIM-admin/data guru/positive cases/Pastikan user dapat menambahkan data guru</testCaseId>
    </testCaseLink>
 </TestSuiteEntity>

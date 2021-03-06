@@ -1,24 +1,20 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <WebElementEntity>
    <description></description>
-   <name>button_Kembali</name>
+   <name>button_Isi kehadiran</name>
    <tag></tag>
-   <elementGuidId>229bb151-05e6-43ee-838b-7a4e4e9800d5</elementGuidId>
+   <elementGuidId>b142bc33-f591-43c7-86e9-d8fd2fc757f3</elementGuidId>
    <selectorCollection>
       <entry>
          <key>XPATH</key>
-         <value>//button[@id='button-1']</value>
+         <value>(//button[@type='button'])[3]</value>
       </entry>
       <entry>
          <key>CSS</key>
-         <value>#button-1</value>
-      </entry>
-      <entry>
-         <key>BASIC</key>
-         <value>//*[@id = 'button-1' and @type = 'button' and (text() = ' Kembali ' or . = ' Kembali ')]</value>
+         <value>button.swal2-confirm._20MY8X0j9D39r3x3P63Z1d.swal2-styled</value>
       </entry>
    </selectorCollection>
-   <selectorMethod>BASIC</selectorMethod>
+   <selectorMethod>XPATH</selectorMethod>
    <useRalativeImagePath>true</useRalativeImagePath>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -28,20 +24,6 @@
       <value>button</value>
    </webElementProperties>
    <webElementProperties>
-      <isSelected>false</isSelected>
-      <matchCondition>equals</matchCondition>
-      <name>class</name>
-      <type>Main</type>
-      <value>btn no-margin w-32 md:wide text-center</value>
-   </webElementProperties>
-   <webElementProperties>
-      <isSelected>true</isSelected>
-      <matchCondition>equals</matchCondition>
-      <name>id</name>
-      <type>Main</type>
-      <value>button-1</value>
-   </webElementProperties>
-   <webElementProperties>
       <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
       <name>type</name>
@@ -49,46 +31,46 @@
       <value>button</value>
    </webElementProperties>
    <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>class</name>
+      <type>Main</type>
+      <value>swal2-confirm _20MY8X0j9D39r3x3P63Z1d swal2-styled</value>
+   </webElementProperties>
+   <webElementProperties>
       <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
       <name>text</name>
       <type>Main</type>
-      <value> Kembali </value>
+      <value>Isi kehadiran</value>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath</name>
       <type>Main</type>
-      <value>id(&quot;button-1&quot;)</value>
+      <value>/html[@class=&quot;swal2-shown swal2-height-auto&quot;]/body[@class=&quot;swal2-shown swal2-height-auto&quot;]/div[@class=&quot;swal2-container swal2-center swal2-backdrop-show&quot;]/div[@class=&quot;swal2-popup swal2-modal swal2-show&quot;]/div[@class=&quot;swal2-actions&quot;]/button[@class=&quot;swal2-confirm _20MY8X0j9D39r3x3P63Z1d swal2-styled&quot;]</value>
    </webElementProperties>
    <webElementXpaths>
       <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:attributes</name>
       <type>Main</type>
-      <value>//button[@id='button-1']</value>
-   </webElementXpaths>
-   <webElementXpaths>
-      <isSelected>false</isSelected>
-      <matchCondition>equals</matchCondition>
-      <name>xpath:idRelative</name>
-      <type>Main</type>
-      <value>//div[@id='app']/main/div/div/div[3]/div/table/tbody/tr[11]/td[3]/button</value>
+      <value>(//button[@type='button'])[3]</value>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:neighbor</name>
       <type>Main</type>
-      <value>(.//*[normalize-space(text()) and normalize-space(.)='Ilmu Pengetahuan Sosial, Fisika'])[1]/following::button[1]</value>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Nanti!'])[1]/following::button[1]</value>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:neighbor</name>
       <type>Main</type>
-      <value>(.//*[normalize-space(text()) and normalize-space(.)=':'])[10]/following::button[1]</value>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='×'])[1]/following::button[2]</value>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -109,20 +91,13 @@
       <matchCondition>equals</matchCondition>
       <name>xpath:neighbor</name>
       <type>Main</type>
-      <value>//*/text()[normalize-space(.)='Kembali']/parent::*</value>
+      <value>//*/text()[normalize-space(.)='Isi kehadiran']/parent::*</value>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:position</name>
       <type>Main</type>
-      <value>//td[3]/button</value>
-   </webElementXpaths>
-   <webElementXpaths>
-      <isSelected>false</isSelected>
-      <matchCondition>equals</matchCondition>
-      <name>xpath:neighbor</name>
-      <type>Main</type>
-      <value>(.//*[normalize-space(text()) and normalize-space(.)='Fisika'])[1]/following::button[1]</value>
+      <value>//button[2]</value>
    </webElementXpaths>
 </WebElementEntity>

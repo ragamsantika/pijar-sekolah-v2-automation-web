@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description>User admin dapat login pijar sekolah</description>
+   <name>Pastikan admin bisa login</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>c53feef0-b81b-4b2e-855b-c27849acd112</testCaseGuid>
+   <variable>
+      <defaultValue>'pijarsekolahv2@gmail.com'</defaultValue>
+      <description></description>
+      <id>b2ec5de0-110a-4d8e-8125-4bdcee07185f</id>
+      <masked>false</masked>
+      <name>username</name>
+   </variable>
+   <variable>
+      <defaultValue>'password'</defaultValue>
+      <description></description>
+      <id>98958674-7371-4675-a36b-07727b065d71</id>
+      <masked>false</masked>
+      <name>password</name>
+   </variable>
+</TestCaseEntity>

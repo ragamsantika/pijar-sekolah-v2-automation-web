@@ -1,8 +1,0 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<TestCaseEntity>
-   <description></description>
-   <name>TC003-Pastikan user dapat mengubah data mata pelajaran</name>
-   <tag></tag>
-   <comment></comment>
-   <testCaseGuid>7ab63837-2f27-4578-a1ba-9f058984152e</testCaseGuid>
-</TestCaseEntity>

@@ -27,13 +27,13 @@
       <guid>ffd3075b-d00a-4fcc-89a7-7839193dcc24</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
-      <testCaseId>Test Cases/SIM-admin/login/negative cases/TC001-Pastikan user tidak bisa login jika username belum terisi</testCaseId>
+      <testCaseId>Test Cases/SIM-admin/login/negative cases/Pastikan user tidak bisa login jika username belum terisi</testCaseId>
    </testCaseLink>
    <testCaseLink>
       <guid>397bd0f2-2c0f-4061-aedf-5bf4534dc760</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
-      <testCaseId>Test Cases/SIM-admin/login/negative cases/TC002-Pastikan user tidak bisa login jika password belum terisi</testCaseId>
+      <testCaseId>Test Cases/SIM-admin/login/negative cases/Pastikan user tidak bisa login jika password belum terisi</testCaseId>
       <variableLink>
          <testDataLinkId></testDataLinkId>
          <type>DEFAULT</type>
@@ -51,7 +51,7 @@
       <guid>0664048e-d584-4135-a5ba-64767f8b49c3</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
-      <testCaseId>Test Cases/SIM-admin/login/negative cases/TC003-Pastikan user tidak bisa login jika password salah</testCaseId>
+      <testCaseId>Test Cases/SIM-admin/login/negative cases/Pastikan user tidak bisa login jika password salah</testCaseId>
       <variableLink>
          <testDataLinkId></testDataLinkId>
          <type>DEFAULT</type>

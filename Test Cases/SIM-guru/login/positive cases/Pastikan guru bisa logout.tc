@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description>User guru dapat logout pijar sekolah</description>
+   <name>Pastikan guru bisa logout</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>40576329-0928-4b1f-988a-903150773f83</testCaseGuid>
+   <variable>
+      <defaultValue>'teacher01@gmail.com'</defaultValue>
+      <description></description>
+      <id>80087478-1a00-4b60-9021-d7c93b7e98f7</id>
+      <masked>false</masked>
+      <name>username</name>
+   </variable>
+   <variable>
+      <defaultValue>'010100'</defaultValue>
+      <description></description>
+      <id>ac6b8adc-449c-42d3-bb04-0129cc1390c5</id>
+      <masked>false</masked>
+      <name>password</name>
+   </variable>
+</TestCaseEntity>

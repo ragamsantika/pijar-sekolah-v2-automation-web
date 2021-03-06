@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>Pastikan user dapat menambahkan data mata pelajaran</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>a4c87365-e080-4a96-a3d7-6601d2464906</testCaseGuid>
+</TestCaseEntity>
