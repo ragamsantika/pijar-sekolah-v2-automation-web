@@ -17,33 +17,39 @@ import com.kms.katalon.core.windows.keyword.WindowsBuiltinKeywords as Windows
 import internal.GlobalVariable as GlobalVariable
 import org.openqa.selenium.Keys as Keys
 
+'User click Data Guru on side menu'
 WebUI.click(findTestObject('admin/Page_Beranda - PIJAR/span_Data Guru'))
 
+'User click Profil Guru on side menu'
 WebUI.click(findTestObject('admin/Page_Beranda - PIJAR/span_Profil Guru'))
 
+'Menampilkan list guru'
+WebUI.delay(1)
+
+'User click icon edit pada guru jono'
 WebUI.click(findTestObject('admin/Page_Daftar Guru - PIJAR/button_btnEdit'))
 
+'User delete name guru'
 WebUI.sendKeys(findTestObject('admin/Page_Edit Guru - PIJAR/input__nama'), Keys.chord(Keys.CONTROL, 'a', Keys.DELETE))
 
-WebUI.setText(findTestObject('admin/Page_Edit Guru - PIJAR/input__nama'), 'Jono Aja nih')
+'User set text input name guru : Jona'
+WebUI.setText(findTestObject('admin/Page_Edit Guru - PIJAR/input__nama'), 'Jona')
 
 WebUI.sendKeys(findTestObject('admin/Page_Edit Guru - PIJAR/input__nip'), Keys.chord(Keys.CONTROL, 'a', Keys.DELETE))
 
-WebUI.setText(findTestObject('admin/Page_Edit Guru - PIJAR/input__nip'), '121312131213')
+WebUI.setText(findTestObject('admin/Page_Edit Guru - PIJAR/input__nip'), '141514151415')
 
 WebUI.sendKeys(findTestObject('admin/Page_Edit Guru - PIJAR/input__tempatLahir'), Keys.chord(Keys.CONTROL, 'a', Keys.DELETE))
 
-WebUI.setText(findTestObject('admin/Page_Edit Guru - PIJAR/input__tempatLahir'), 'Jakarta')
+WebUI.setText(findTestObject('admin/Page_Edit Guru - PIJAR/input__tempatLahir'), 'Makassar')
 
-WebUI.setText(findTestObject('admin/Page_Add Guru - PIJAR/input__tanggalLahir'), '16/02/1994')
+WebUI.sendKeys(findTestObject('admin/Page_Edit Guru - PIJAR/input__email'), Keys.chord(Keys.CONTROL, 'a', Keys.DELETE))
 
-WebUI.click(findTestObject('admin/Page_Add Guru - PIJAR/div_16'))
-
-WebUI.doubleClick(findTestObject('admin/Page_Add Guru - PIJAR/div_Laki-laki'))
+WebUI.setText(findTestObject('admin/Page_Edit Guru - PIJAR/input__email'), 'jona@gmail.com')
 
 WebUI.sendKeys(findTestObject('admin/Page_Edit Guru - PIJAR/input__nik'), Keys.chord(Keys.CONTROL, 'a', Keys.DELETE))
 
-WebUI.setText(findTestObject('admin/Page_Edit Guru - PIJAR/input__nik'), '1234567812345678')
+WebUI.setText(findTestObject('admin/Page_Edit Guru - PIJAR/input__nik'), '1992929192919291')
 
 WebUI.sendKeys(findTestObject('admin/Page_Edit Guru - PIJAR/textarea_Jalan perjuangan'), Keys.chord(Keys.CONTROL, 'a', Keys.DELETE))
 

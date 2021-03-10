@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <TestCaseEntity>
-   <description></description>
+   <description>User admin dapat menghapus data guru</description>
    <name>Pastikan user dapat menghapus data guru</name>
    <tag></tag>
    <comment></comment>
