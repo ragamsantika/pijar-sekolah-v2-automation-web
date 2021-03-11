@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description>User melihat list data kelas</description>
+   <name>Pastikan user dapat mengakses list data kelas</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>d7584a13-71b7-40f8-96b3-b5937dc3ef7f</testCaseGuid>
+</TestCaseEntity>
