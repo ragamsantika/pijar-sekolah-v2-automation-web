@@ -16,8 +16,6 @@ import com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords as WebUI
 import com.kms.katalon.core.windows.keyword.WindowsBuiltinKeywords as Windows
 import internal.GlobalVariable as GlobalVariable
 
-WebUI.refresh()
-
 'User input text username'
 WebUI.setText(findTestObject('admin/Page_Login/input_Ingat saya_username'), username)
 

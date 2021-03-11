@@ -17,12 +17,19 @@ import com.kms.katalon.core.windows.keyword.WindowsBuiltinKeywords as Windows
 import internal.GlobalVariable as GlobalVariable
 import org.openqa.selenium.Keys as Keys
 
+'User click Data Guru on side menu'
 WebUI.click(findTestObject('admin/Page_Beranda - PIJAR/span_Data Guru'))
 
+'User click Profil Guru on side menu'
 WebUI.click(findTestObject('admin/Page_Beranda - PIJAR/span_Profil Guru'))
 
+'Menampilkan list guru'
+WebUI.delay(1)
+
+'User click icon edit pada guru jono'
 WebUI.click(findTestObject('admin/Page_Daftar Guru - PIJAR/button_btnEdit'))
 
+'User delete name guru'
 WebUI.sendKeys(findTestObject('admin/Page_Edit Guru - PIJAR/input__nama'), Keys.chord(Keys.CONTROL, 'a', Keys.DELETE))
 
 WebUI.setText(findTestObject('admin/Page_Edit Guru - PIJAR/input__nama'), 'Jona')
@@ -33,13 +40,21 @@ WebUI.setText(findTestObject('admin/Page_Edit Guru - PIJAR/input__nip'), '141514
 
 WebUI.sendKeys(findTestObject('admin/Page_Edit Guru - PIJAR/input__tempatLahir'), Keys.chord(Keys.CONTROL, 'a', Keys.DELETE))
 
+<<<<<<< HEAD
 WebUI.setText(findTestObject('admin/Page_Edit Guru - PIJAR/input__tempatLahir'), 'Jakarta')
 
 WebUI.doubleClick(findTestObject('admin/Page_Add Guru - PIJAR/div_Laki-laki'))
+=======
+WebUI.setText(findTestObject('admin/Page_Edit Guru - PIJAR/input__tempatLahir'), 'Makassar')
+
+WebUI.sendKeys(findTestObject('admin/Page_Edit Guru - PIJAR/input__email'), Keys.chord(Keys.CONTROL, 'a', Keys.DELETE))
+
+WebUI.setText(findTestObject('admin/Page_Edit Guru - PIJAR/input__email'), 'jona@gmail.com')
+>>>>>>> 127c2d619eed0748d7492d44da723e955fc65fd3
 
 WebUI.sendKeys(findTestObject('admin/Page_Edit Guru - PIJAR/input__nik'), Keys.chord(Keys.CONTROL, 'a', Keys.DELETE))
 
-WebUI.setText(findTestObject('admin/Page_Edit Guru - PIJAR/input__nik'), '1234567812345678')
+WebUI.setText(findTestObject('admin/Page_Edit Guru - PIJAR/input__nik'), '1992929192919291')
 
 WebUI.sendKeys(findTestObject('admin/Page_Edit Guru - PIJAR/textarea_Jalan perjuangan'), Keys.chord(Keys.CONTROL, 'a', Keys.DELETE))
 

@@ -13,7 +13,7 @@
             <runConfigurationId>Chrome</runConfigurationId>
          </configuration>
          <runEnabled>true</runEnabled>
-         <testSuiteEntity>Test Suites/SIM-admin/kelas/TC-positive-mengelola data kelas</testSuiteEntity>
+         <testSuiteEntity>Test Suites/SIM-admin/kelas/TC-positive-view data kelas</testSuiteEntity>
       </TestSuiteRunConfiguration>
    </testSuiteRunConfigurations>
 </TestSuiteCollectionEntity>

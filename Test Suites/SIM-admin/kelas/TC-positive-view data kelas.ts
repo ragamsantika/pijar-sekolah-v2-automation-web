@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <TestSuiteEntity>
-   <description></description>
-   <name>TC-positive-add guru</name>
+   <description>admin mengelola data kelas</description>
+   <name>TC-positive-view data kelas</name>
    <tag></tag>
    <isRerun>false</isRerun>
    <mailRecipient></mailRecipient>
@@ -10,21 +10,21 @@
    <pageLoadTimeoutDefault>true</pageLoadTimeoutDefault>
    <rerunFailedTestCasesOnly>false</rerunFailedTestCasesOnly>
    <rerunImmediately>false</rerunImmediately>
-   <testSuiteGuid>0b6ddb7a-8a35-47c8-94d4-5f356764a31a</testSuiteGuid>
+   <testSuiteGuid>30a35aaa-1f65-4358-aaf1-821f2244dcc9</testSuiteGuid>
    <testCaseLink>
-      <guid>fa38a71c-463d-4d6d-844f-018a4745e3ce</guid>
+      <guid>f17ac67e-cb57-42c9-b9d6-db2ebec96e5b</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
       <testCaseId>Test Cases/CustomKeyword/Open Browser</testCaseId>
    </testCaseLink>
    <testCaseLink>
-      <guid>7596e897-c34e-4bcf-a124-56ca1d7ed1bc</guid>
+      <guid>dd00239f-c461-4f4a-af98-9fe765e3d291</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
       <testCaseId>Test Cases/CustomKeyword/Navigate to URL SIM</testCaseId>
    </testCaseLink>
    <testCaseLink>
-      <guid>21066941-ee38-4861-85ab-5d650f4f07b5</guid>
+      <guid>8e79da55-e2e1-4674-90db-da963d873e7b</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
       <testCaseId>Test Cases/SIM-admin/login/positive cases/Pastikan admin bisa login</testCaseId>
@@ -42,9 +42,21 @@
       </variableLink>
    </testCaseLink>
    <testCaseLink>
-      <guid>049cc821-076c-48e2-9f3b-dc000e33706d</guid>
+      <guid>8c795994-6f58-444f-ae2a-a95f581b07c7</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
-      <testCaseId>Test Cases/SIM-admin/data guru/positive cases/Pastikan user dapat menambahkan data guru</testCaseId>
+      <testCaseId>Test Cases/SIM-admin/kelas/positive cases/Pastikan user dapat mengakses list data kelas</testCaseId>
+   </testCaseLink>
+   <testCaseLink>
+      <guid>09d96031-6013-4057-9833-f6608c86194b</guid>
+      <isReuseDriver>false</isReuseDriver>
+      <isRun>true</isRun>
+      <testCaseId>Test Cases/SIM-admin/kelas/positive cases/Pastikan user dapat menggunakan fitur search kelas</testCaseId>
+   </testCaseLink>
+   <testCaseLink>
+      <guid>18e7550d-841f-4bfb-a41a-6aa232c291c5</guid>
+      <isReuseDriver>false</isReuseDriver>
+      <isRun>true</isRun>
+      <testCaseId>Test Cases/SIM-admin/kelas/positive cases/Pastikan user bisa melihat detail kelas</testCaseId>
    </testCaseLink>
 </TestSuiteEntity>
