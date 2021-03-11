@@ -16,6 +16,24 @@ import com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords as WebUI
 import com.kms.katalon.core.windows.keyword.WindowsBuiltinKeywords as Windows
 import internal.GlobalVariable as GlobalVariable
 
+<<<<<<< HEAD
+'User click Data Guru on side menu\r'
+WebUI.click(findTestObject('admin/Page_Beranda - PIJAR/span_Data Guru'))
+
+'User click Profil Guru on side menu\r'
+WebUI.click(findTestObject('admin/Page_Beranda - PIJAR/span_Profil Guru'))
+
+'User click button "Tambah Data"\r'
+WebUI.click(findTestObject('admin/Page_Daftar Guru - PIJAR/button_Tambah Data'))
+
+'User click Input Data'
+WebUI.click(findTestObject('admin/Page_Daftar Guru - PIJAR/div_Input Data  Memasukan data Guru secara manual'))
+
+'User set text nama guru : \'Jono\'\r'
+WebUI.setText(findTestObject('admin/Page_Add Guru - PIJAR/input__nama'), 'Jono')
+
+'User set number nip guru : \'121312131213\'\r'
+=======
 'User click Data Guru on side menu'
 WebUI.click(findTestObject('admin/Page_Beranda - PIJAR/span_Data Guru'))
 
@@ -32,6 +50,7 @@ WebUI.click(findTestObject('admin/Page_Daftar Guru - PIJAR/div_Input Data  Memas
 WebUI.setText(findTestObject('admin/Page_Add Guru - PIJAR/input__nama'), 'Jono')
 
 'User set number nip guru : \'121312131213\''
+>>>>>>> 127c2d619eed0748d7492d44da723e955fc65fd3
 WebUI.setText(findTestObject('admin/Page_Add Guru - PIJAR/input__nip'), '121312131213')
 
 'User set text tempat lahir guru : \'Jakarta\''
@@ -46,7 +65,11 @@ WebUI.click(findTestObject('admin/Page_Add Guru - PIJAR/div_16'))
 'User click Pilih Jenis Kelamin untuk memilih jenis kelamin'
 WebUI.click(findTestObject('admin/Page_Add Guru - PIJAR/div_Pilih Jenis Kelamin'))
 
+<<<<<<< HEAD
+'User click \'Laki-Laki\'\r'
+=======
 'User click \'Laki-Laki\''
+>>>>>>> 127c2d619eed0748d7492d44da723e955fc65fd3
 WebUI.click(findTestObject('admin/Page_Add Guru - PIJAR/div_Laki-laki'))
 
 'User set email guru : \'jono@gmail.com'
@@ -58,7 +81,11 @@ WebUI.click(findTestObject('admin/Page_Add Guru - PIJAR/div_Pilih Mata Pelajaran
 'User click mata pelajaran \'Matematika\''
 WebUI.click(findTestObject('admin/Page_Add Guru - PIJAR/div_Matematika'))
 
+<<<<<<< HEAD
+'User set number input nik : 1990020109920004'
+=======
 '1990020109920004'
+>>>>>>> 127c2d619eed0748d7492d44da723e955fc65fd3
 WebUI.setText(findTestObject('admin/Page_Add Guru - PIJAR/input__nik'), '1990020109920004')
 
 'User set textarea alamat guru : \'Jalan Perjuangan\''
@@ -67,7 +94,11 @@ WebUI.setText(findTestObject('admin/Page_Add Guru - PIJAR/textarea__alamat'), 'J
 'User set number no telp guru : \'081213124547\''
 WebUI.setText(findTestObject('admin/Page_Add Guru - PIJAR/input__noTelp'), '081213124547')
 
+<<<<<<< HEAD
+'User click button "Simpan" untuk menyimpan data guru yang sudah di input\r'
+=======
 'User click button "Simpan" untuk menyimpan data guru yang sudah di input'
+>>>>>>> 127c2d619eed0748d7492d44da723e955fc65fd3
 WebUI.click(findTestObject('admin/Page_Add Guru - PIJAR/button_Simpan'))
 
 'User verifikasi pop-up \'Sukses!\''
@@ -76,7 +107,11 @@ WebUI.verifyElementText(findTestObject('admin/Page_Add Guru - PIJAR/h3_Sukses'),
 'User verifikasi pop-up \'Profil Guru berhasil disimpan\''
 WebUI.verifyElementText(findTestObject('admin/Page_Add Guru - PIJAR/p_Profil Guru berhasil disimpan'), 'Profil Guru berhasil disimpan')
 
+<<<<<<< HEAD
+'User click button "OK"\r'
+=======
 'User click button "OK"'
+>>>>>>> 127c2d619eed0748d7492d44da723e955fc65fd3
 WebUI.click(findTestObject('admin/Page_Add Guru - PIJAR/button_OK'))
 
 WebUI.refresh()

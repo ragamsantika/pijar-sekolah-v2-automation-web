@@ -40,11 +40,17 @@ WebUI.setText(findTestObject('admin/Page_Edit Guru - PIJAR/input__nip'), '141514
 
 WebUI.sendKeys(findTestObject('admin/Page_Edit Guru - PIJAR/input__tempatLahir'), Keys.chord(Keys.CONTROL, 'a', Keys.DELETE))
 
+<<<<<<< HEAD
+WebUI.setText(findTestObject('admin/Page_Edit Guru - PIJAR/input__tempatLahir'), 'Jakarta')
+
+WebUI.doubleClick(findTestObject('admin/Page_Add Guru - PIJAR/div_Laki-laki'))
+=======
 WebUI.setText(findTestObject('admin/Page_Edit Guru - PIJAR/input__tempatLahir'), 'Makassar')
 
 WebUI.sendKeys(findTestObject('admin/Page_Edit Guru - PIJAR/input__email'), Keys.chord(Keys.CONTROL, 'a', Keys.DELETE))
 
 WebUI.setText(findTestObject('admin/Page_Edit Guru - PIJAR/input__email'), 'jona@gmail.com')
+>>>>>>> 127c2d619eed0748d7492d44da723e955fc65fd3
 
 WebUI.sendKeys(findTestObject('admin/Page_Edit Guru - PIJAR/input__nik'), Keys.chord(Keys.CONTROL, 'a', Keys.DELETE))
 
