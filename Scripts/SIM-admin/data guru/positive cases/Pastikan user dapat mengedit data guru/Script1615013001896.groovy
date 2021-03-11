@@ -32,7 +32,6 @@ WebUI.click(findTestObject('admin/Page_Daftar Guru - PIJAR/button_btnEdit'))
 'User delete name guru'
 WebUI.sendKeys(findTestObject('admin/Page_Edit Guru - PIJAR/input__nama'), Keys.chord(Keys.CONTROL, 'a', Keys.DELETE))
 
-'User set text input name guru : Jona'
 WebUI.setText(findTestObject('admin/Page_Edit Guru - PIJAR/input__nama'), 'Jona')
 
 WebUI.sendKeys(findTestObject('admin/Page_Edit Guru - PIJAR/input__nip'), Keys.chord(Keys.CONTROL, 'a', Keys.DELETE))
