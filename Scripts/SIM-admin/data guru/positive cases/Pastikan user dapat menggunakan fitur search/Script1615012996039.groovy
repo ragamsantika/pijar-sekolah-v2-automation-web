@@ -23,10 +23,13 @@ WebUI.click(findTestObject('admin/Page_Beranda - PIJAR/span_Data Guru'))
 'User click Profil Guru on side menu'
 WebUI.click(findTestObject('admin/Page_Beranda - PIJAR/span_Profil Guru'))
 
+'User set text untuk find guru dengan nama \'Jono\''
 WebUI.setText(findTestObject('admin/Page_Daftar Guru - PIJAR/input_Tambah Data_search'), 'Jono')
 
+'User click icon "Eye" untuk melihat detail guru Jono'
 WebUI.click(findTestObject('admin/Page_Daftar Guru - PIJAR/button_btnDetail'))
 
+'User click button "Kembali"\r'
 WebUI.click(findTestObject('admin/Page_Detail Guru - PIJAR/button_Kembali'))
 
 WebUI.refresh()

@@ -35,10 +35,6 @@ WebUI.sendKeys(findTestObject('admin/Page_Edit Guru - PIJAR/input__tempatLahir')
 
 WebUI.setText(findTestObject('admin/Page_Edit Guru - PIJAR/input__tempatLahir'), 'Jakarta')
 
-WebUI.setText(findTestObject('admin/Page_Add Guru - PIJAR/input__tanggalLahir'), '16/02/1994')
-
-WebUI.click(findTestObject('admin/Page_Add Guru - PIJAR/div_16'))
-
 WebUI.doubleClick(findTestObject('admin/Page_Add Guru - PIJAR/div_Laki-laki'))
 
 WebUI.sendKeys(findTestObject('admin/Page_Edit Guru - PIJAR/input__nik'), Keys.chord(Keys.CONTROL, 'a', Keys.DELETE))
