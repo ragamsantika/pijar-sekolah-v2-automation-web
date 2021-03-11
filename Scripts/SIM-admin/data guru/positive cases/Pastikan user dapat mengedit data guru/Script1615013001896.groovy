@@ -25,11 +25,11 @@ WebUI.click(findTestObject('admin/Page_Daftar Guru - PIJAR/button_btnEdit'))
 
 WebUI.sendKeys(findTestObject('admin/Page_Edit Guru - PIJAR/input__nama'), Keys.chord(Keys.CONTROL, 'a', Keys.DELETE))
 
-WebUI.setText(findTestObject('admin/Page_Edit Guru - PIJAR/input__nama'), 'Jono Aja nih')
+WebUI.setText(findTestObject('admin/Page_Edit Guru - PIJAR/input__nama'), 'Jona')
 
 WebUI.sendKeys(findTestObject('admin/Page_Edit Guru - PIJAR/input__nip'), Keys.chord(Keys.CONTROL, 'a', Keys.DELETE))
 
-WebUI.setText(findTestObject('admin/Page_Edit Guru - PIJAR/input__nip'), '121312131213')
+WebUI.setText(findTestObject('admin/Page_Edit Guru - PIJAR/input__nip'), '141514151415')
 
 WebUI.sendKeys(findTestObject('admin/Page_Edit Guru - PIJAR/input__tempatLahir'), Keys.chord(Keys.CONTROL, 'a', Keys.DELETE))
 
