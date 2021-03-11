@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <TestSuiteEntity>
    <description></description>
-   <name>TC-positive-mengelola data guru</name>
+   <name>TC-positive-list data guru</name>
    <tag></tag>
    <isRerun>false</isRerun>
    <mailRecipient></mailRecipient>
@@ -48,51 +48,9 @@
       <testCaseId>Test Cases/SIM-admin/data guru/positive cases/Pastikan user dapat mengakses list data guru</testCaseId>
    </testCaseLink>
    <testCaseLink>
-      <guid>0d71899c-600e-4949-8b45-eaf6fc3bf482</guid>
-      <isReuseDriver>false</isReuseDriver>
-      <isRun>true</isRun>
-      <testCaseId>Test Cases/SIM-admin/data guru/positive cases/Pastikan user dapat menambahkan data guru</testCaseId>
-   </testCaseLink>
-   <testCaseLink>
       <guid>89f14069-ac15-48f2-bdaf-c36671a1d7c6</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
       <testCaseId>Test Cases/SIM-admin/data guru/positive cases/Pastikan user dapat menggunakan fitur search</testCaseId>
-   </testCaseLink>
-   <testCaseLink>
-      <guid>a720788e-d39f-4109-951b-c1c40c721a78</guid>
-      <isReuseDriver>false</isReuseDriver>
-      <isRun>true</isRun>
-      <testCaseId>Test Cases/SIM-admin/data guru/positive cases/Pastikan user dapat mengedit data guru</testCaseId>
-   </testCaseLink>
-   <testCaseLink>
-      <guid>4c25d134-d2b4-4dc6-ad10-b86b914542a6</guid>
-      <isReuseDriver>false</isReuseDriver>
-      <isRun>true</isRun>
-      <testCaseId>Test Cases/SIM-admin/data guru/positive cases/Pastikan user dapat mengganti password guru</testCaseId>
-   </testCaseLink>
-   <testCaseLink>
-      <guid>aaba5544-8a43-485d-82d4-31a46c2d5f2d</guid>
-      <isReuseDriver>false</isReuseDriver>
-      <isRun>true</isRun>
-      <testCaseId>Test Cases/SIM-admin/data guru/positive cases/Pastikan user dapat menghapus data guru</testCaseId>
-   </testCaseLink>
-   <testCaseLink>
-      <guid>33bfdd69-a45a-44af-8715-2d0e96c03b81</guid>
-      <isReuseDriver>false</isReuseDriver>
-      <isRun>true</isRun>
-      <testCaseId>Test Cases/SIM-admin/login/positive cases/Pastikan admin bisa logout</testCaseId>
-      <variableLink>
-         <testDataLinkId></testDataLinkId>
-         <type>DEFAULT</type>
-         <value></value>
-         <variableId>3223056b-75ae-481a-994e-85eb2e3d8436</variableId>
-      </variableLink>
-      <variableLink>
-         <testDataLinkId></testDataLinkId>
-         <type>DEFAULT</type>
-         <value></value>
-         <variableId>e0dfd9a7-528a-49e5-88ab-0fe2ea8fe992</variableId>
-      </variableLink>
    </testCaseLink>
 </TestSuiteEntity>

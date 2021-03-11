@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <TestSuiteEntity>
    <description></description>
-   <name>TC-positive-delete guru</name>
+   <name>TS-positive-detail data guru</name>
    <tag></tag>
    <isRerun>false</isRerun>
    <mailRecipient></mailRecipient>
@@ -10,21 +10,21 @@
    <pageLoadTimeoutDefault>true</pageLoadTimeoutDefault>
    <rerunFailedTestCasesOnly>false</rerunFailedTestCasesOnly>
    <rerunImmediately>false</rerunImmediately>
-   <testSuiteGuid>5490f1b6-cb6c-488c-a2b6-63891ac90044</testSuiteGuid>
+   <testSuiteGuid>ceff0ef6-8845-44c9-992c-e6e920f9b5ae</testSuiteGuid>
    <testCaseLink>
-      <guid>c1edd434-bcc4-4f97-b6d8-ab924baeb093</guid>
+      <guid>ccbc54ab-070c-4b28-85a3-a0a6945f5267</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
       <testCaseId>Test Cases/CustomKeyword/Open Browser</testCaseId>
    </testCaseLink>
    <testCaseLink>
-      <guid>d1ac3f07-ab6d-4486-a4e7-171892adeb39</guid>
+      <guid>0ba4efa2-0e81-460e-842c-3c130e9491a7</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
       <testCaseId>Test Cases/CustomKeyword/Navigate to URL SIM</testCaseId>
    </testCaseLink>
    <testCaseLink>
-      <guid>4a5e59c9-5749-4109-9ba1-75469c74d0d0</guid>
+      <guid>2e19746c-6fbb-4027-9568-ba2db0438a3e</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
       <testCaseId>Test Cases/SIM-admin/login/positive cases/Pastikan admin bisa login</testCaseId>
@@ -42,9 +42,9 @@
       </variableLink>
    </testCaseLink>
    <testCaseLink>
-      <guid>6ea1108f-12e3-489c-9231-93e7b6333809</guid>
+      <guid>e516e2c1-8654-40b0-babe-f9b2c6683f6b</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
-      <testCaseId>Test Cases/SIM-admin/data guru/positive cases/Pastikan user dapat menghapus data guru</testCaseId>
+      <testCaseId>Test Cases/SIM-admin/data guru/positive cases/Pastikan user dapat mengakses detail data guru</testCaseId>
    </testCaseLink>
 </TestSuiteEntity>
