@@ -4,7 +4,12 @@
    <name>input__tanggalLahir</name>
    <tag></tag>
    <elementGuidId>5088bf3c-101c-41a3-8673-06e1a6dddcd1</elementGuidId>
+   <imagePath></imagePath>
    <selectorCollection>
+      <entry>
+         <key>BASIC</key>
+         <value>//*[@type = 'text' and @name = 'tanggalLahir' and @placeholder = 'Pilih Tanggal']</value>
+      </entry>
       <entry>
          <key>CSS</key>
          <value>input[name=&quot;tanggalLahir&quot;]</value>
@@ -12,6 +17,10 @@
       <entry>
          <key>XPATH</key>
          <value>//input[@name='tanggalLahir']</value>
+      </entry>
+      <entry>
+         <key>IMAGE</key>
+         <value></value>
       </entry>
    </selectorCollection>
    <selectorMethod>XPATH</selectorMethod>

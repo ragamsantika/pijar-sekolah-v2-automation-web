@@ -42,9 +42,10 @@
       </variableLink>
    </testCaseLink>
    <testCaseLink>
-      <guid>8c795994-6f58-444f-ae2a-a95f581b07c7</guid>
+      <guid>a5446be2-b86c-4192-bda7-851b78df0f0a</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
+<<<<<<< HEAD
       <testCaseId>Test Cases/SIM-admin/kelas/positive cases/Pastikan user dapat mengakses list data kelas</testCaseId>
    </testCaseLink>
    <testCaseLink>
@@ -94,5 +95,8 @@
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
       <testCaseId>Test Cases/SIM-admin/kelas/positive cases/Pastikan user bisa menghapus data kelas</testCaseId>
+=======
+      <testCaseId>Test Cases/CustomKeyword/Navigate to URL SIM</testCaseId>
+>>>>>>> 8c7f5377b6d17e983b52784fcb530bebe783ad9b
    </testCaseLink>
 </TestSuiteEntity>
