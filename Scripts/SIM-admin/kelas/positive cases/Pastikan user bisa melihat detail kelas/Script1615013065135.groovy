@@ -16,8 +16,11 @@ import com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords as WebUI
 import com.kms.katalon.core.windows.keyword.WindowsBuiltinKeywords as Windows
 import internal.GlobalVariable as GlobalVariable
 
-'User click "Keluar"'
-WebUI.click(findTestObject('admin/Page_Beranda - PIJAR/span_Keluar'))
+WebUI.click(findTestObject('admin/Page_Beranda - PIJAR/span_Data Siswa'))
+
+WebUI.click(findTestObject('admin/Page_Beranda - PIJAR/span_Data Kelas'))
+
+WebUI.click(findTestObject('admin/Page_Data Kelas - PIJAR/DUD/button_btnDetailKelas'))
 
 WebUI.refresh()
 

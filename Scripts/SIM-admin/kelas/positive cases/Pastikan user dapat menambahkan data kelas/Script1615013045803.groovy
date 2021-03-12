@@ -16,8 +16,27 @@ import com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords as WebUI
 import com.kms.katalon.core.windows.keyword.WindowsBuiltinKeywords as Windows
 import internal.GlobalVariable as GlobalVariable
 
-'User click "Keluar"'
-WebUI.click(findTestObject('admin/Page_Beranda - PIJAR/span_Keluar'))
+WebUI.click(findTestObject('admin/Page_Beranda - PIJAR/span_Data Siswa'))
+
+WebUI.click(findTestObject('admin/Page_Beranda - PIJAR/span_Data Kelas'))
+
+WebUI.click(findTestObject('admin/Page_Data Kelas - PIJAR/button_Tambah Data'))
+
+WebUI.click(findTestObject('admin/Page_Data Kelas - PIJAR/div_Input Data  Memasukan data siswa secara manual'))
+
+WebUI.setText(findTestObject('admin/Page_Data Kelas - PIJAR/input__namaKelas'), 'XI-A')
+
+WebUI.click(findTestObject('admin/Page_Data Kelas - PIJAR/div_Pilih Wali Kelas'))
+
+WebUI.click(findTestObject('admin/Page_Data Kelas - PIJAR/div_Rahmat'))
+
+WebUI.click(findTestObject('admin/Page_Data Kelas - PIJAR/button_Simpan'))
+
+WebUI.verifyElementText(findTestObject('admin/Page_Data Kelas - PIJAR/h3_Sukses'), 'Sukses!')
+
+WebUI.verifyElementText(findTestObject('admin/Page_Data Kelas - PIJAR/p_Kelas berhasil disimpan'), 'Kelas berhasil disimpan.')
+
+WebUI.click(findTestObject('admin/Page_Data Kelas - PIJAR/button_OK'))
 
 WebUI.refresh()
 
