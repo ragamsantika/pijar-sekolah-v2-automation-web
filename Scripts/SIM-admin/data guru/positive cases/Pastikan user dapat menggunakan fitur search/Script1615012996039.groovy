@@ -29,8 +29,20 @@ WebUI.setText(findTestObject('admin/Page_Daftar Guru - PIJAR/input_Tambah Data_s
 'User click icon "Eye" untuk melihat detail guru Jono'
 WebUI.click(findTestObject('admin/Page_Daftar Guru - PIJAR/button_btnDetail'))
 
+<<<<<<< HEAD
 'User click button "Kembali"'
 
+=======
+<<<<<<< HEAD
+<<<<<<< HEAD
+'User click button "Kembali"\r'
+=======
+'User click button "Kembali"'
+>>>>>>> 127c2d619eed0748d7492d44da723e955fc65fd3
+=======
+'User click button "Kembali"'
+>>>>>>> origin/siswa
+>>>>>>> 3d0c386ddb115a76418575be6b49f1ea70c2e9b4
 WebUI.click(findTestObject('admin/Page_Detail Guru - PIJAR/button_Kembali'))
 
 WebUI.refresh()
