@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <TestSuiteEntity>
    <description></description>
-   <name>TC-positive-add guru</name>
+   <name>TS-positive-detail data guru</name>
    <tag></tag>
    <isRerun>false</isRerun>
    <mailRecipient></mailRecipient>
@@ -10,21 +10,21 @@
    <pageLoadTimeoutDefault>true</pageLoadTimeoutDefault>
    <rerunFailedTestCasesOnly>false</rerunFailedTestCasesOnly>
    <rerunImmediately>false</rerunImmediately>
-   <testSuiteGuid>0b6ddb7a-8a35-47c8-94d4-5f356764a31a</testSuiteGuid>
+   <testSuiteGuid>ceff0ef6-8845-44c9-992c-e6e920f9b5ae</testSuiteGuid>
    <testCaseLink>
-      <guid>fa38a71c-463d-4d6d-844f-018a4745e3ce</guid>
+      <guid>ccbc54ab-070c-4b28-85a3-a0a6945f5267</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
       <testCaseId>Test Cases/CustomKeyword/Open Browser</testCaseId>
    </testCaseLink>
    <testCaseLink>
-      <guid>7596e897-c34e-4bcf-a124-56ca1d7ed1bc</guid>
+      <guid>0ba4efa2-0e81-460e-842c-3c130e9491a7</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
       <testCaseId>Test Cases/CustomKeyword/Navigate to URL SIM</testCaseId>
    </testCaseLink>
    <testCaseLink>
-      <guid>21066941-ee38-4861-85ab-5d650f4f07b5</guid>
+      <guid>2e19746c-6fbb-4027-9568-ba2db0438a3e</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
       <testCaseId>Test Cases/SIM-admin/login/positive cases/Pastikan admin bisa login</testCaseId>
@@ -42,9 +42,9 @@
       </variableLink>
    </testCaseLink>
    <testCaseLink>
-      <guid>049cc821-076c-48e2-9f3b-dc000e33706d</guid>
+      <guid>e516e2c1-8654-40b0-babe-f9b2c6683f6b</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
-      <testCaseId>Test Cases/SIM-admin/data guru/positive cases/Pastikan user dapat menambahkan data guru</testCaseId>
+      <testCaseId>Test Cases/SIM-admin/data guru/positive cases/Pastikan user dapat mengakses detail data guru</testCaseId>
    </testCaseLink>
 </TestSuiteEntity>

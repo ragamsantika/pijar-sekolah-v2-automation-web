@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <WebElementEntity>
    <description></description>
-   <name>td_Rahmat</name>
+   <name>td_Jono</name>
    <tag></tag>
-   <elementGuidId>fc7b8f2f-24d1-44ed-9226-7906b52b46e5</elementGuidId>
+   <elementGuidId>571167e3-ca3c-4c82-8d82-312103794734</elementGuidId>
    <selectorCollection>
       <entry>
          <key>CSS</key>
@@ -14,7 +14,7 @@
          <value>//div[@id='app']/main/div/div/div[3]/div/table/tbody/tr/td[3]</value>
       </entry>
    </selectorCollection>
-   <selectorMethod>XPATH</selectorMethod>
+   <selectorMethod>BASIC</selectorMethod>
    <useRalativeImagePath>true</useRalativeImagePath>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -28,7 +28,7 @@
       <matchCondition>equals</matchCondition>
       <name>text</name>
       <type>Main</type>
-      <value>Rahmat</value>
+      <value>Jono</value>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -77,7 +77,7 @@
       <matchCondition>equals</matchCondition>
       <name>xpath:neighbor</name>
       <type>Main</type>
-      <value>//*/text()[normalize-space(.)='Rahmat']/parent::*</value>
+      <value>//*/text()[normalize-space(.)='Jono']/parent::*</value>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>

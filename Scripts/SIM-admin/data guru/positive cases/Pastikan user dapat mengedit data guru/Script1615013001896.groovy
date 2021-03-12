@@ -32,6 +32,10 @@ WebUI.click(findTestObject('admin/Page_Daftar Guru - PIJAR/button_btnEdit'))
 'User delete name guru'
 WebUI.sendKeys(findTestObject('admin/Page_Edit Guru - PIJAR/input__nama'), Keys.chord(Keys.CONTROL, 'a', Keys.DELETE))
 
+<<<<<<< HEAD
+=======
+'User set text input name guru : Jona'
+>>>>>>> origin/siswa
 WebUI.setText(findTestObject('admin/Page_Edit Guru - PIJAR/input__nama'), 'Jona')
 
 WebUI.sendKeys(findTestObject('admin/Page_Edit Guru - PIJAR/input__nip'), Keys.chord(Keys.CONTROL, 'a', Keys.DELETE))
@@ -41,16 +45,22 @@ WebUI.setText(findTestObject('admin/Page_Edit Guru - PIJAR/input__nip'), '141514
 WebUI.sendKeys(findTestObject('admin/Page_Edit Guru - PIJAR/input__tempatLahir'), Keys.chord(Keys.CONTROL, 'a', Keys.DELETE))
 
 <<<<<<< HEAD
+<<<<<<< HEAD
 WebUI.setText(findTestObject('admin/Page_Edit Guru - PIJAR/input__tempatLahir'), 'Jakarta')
 
 WebUI.doubleClick(findTestObject('admin/Page_Add Guru - PIJAR/div_Laki-laki'))
 =======
+=======
+>>>>>>> origin/siswa
 WebUI.setText(findTestObject('admin/Page_Edit Guru - PIJAR/input__tempatLahir'), 'Makassar')
 
 WebUI.sendKeys(findTestObject('admin/Page_Edit Guru - PIJAR/input__email'), Keys.chord(Keys.CONTROL, 'a', Keys.DELETE))
 
 WebUI.setText(findTestObject('admin/Page_Edit Guru - PIJAR/input__email'), 'jona@gmail.com')
+<<<<<<< HEAD
 >>>>>>> 127c2d619eed0748d7492d44da723e955fc65fd3
+=======
+>>>>>>> origin/siswa
 
 WebUI.sendKeys(findTestObject('admin/Page_Edit Guru - PIJAR/input__nik'), Keys.chord(Keys.CONTROL, 'a', Keys.DELETE))
 
