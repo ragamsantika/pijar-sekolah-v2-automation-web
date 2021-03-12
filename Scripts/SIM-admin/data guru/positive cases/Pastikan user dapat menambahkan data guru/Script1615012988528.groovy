@@ -58,7 +58,7 @@ WebUI.click(findTestObject('admin/Page_Add Guru - PIJAR/div_Pilih Mata Pelajaran
 'User click mata pelajaran \'Matematika\''
 WebUI.click(findTestObject('admin/Page_Add Guru - PIJAR/div_Matematika'))
 
-'1990020109920004'
+'User set number input nik : 1990020109920004'
 WebUI.setText(findTestObject('admin/Page_Add Guru - PIJAR/input__nik'), '1990020109920004')
 
 'User set textarea alamat guru : \'Jalan Perjuangan\''
