@@ -1,8 +1,0 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<TestCaseEntity>
-   <description>User find guru menggunakan fitur search</description>
-   <name>Pastikan user dapat menggunakan fitur search</name>
-   <tag></tag>
-   <comment></comment>
-   <testCaseGuid>0a17a8e0-05ac-4983-b7ed-9f7806807fed</testCaseGuid>
-</TestCaseEntity>

@@ -1,8 +1,0 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<TestCaseEntity>
-   <description>User print data kelas</description>
-   <name>Pastikan user dapat print data kelas</name>
-   <tag></tag>
-   <comment></comment>
-   <testCaseGuid>a5846de1-e55b-499c-a530-6aa5ef9a13ed</testCaseGuid>
-</TestCaseEntity>
