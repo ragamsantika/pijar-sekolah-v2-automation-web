@@ -1,8 +1,0 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<TestCaseEntity>
-   <description></description>
-   <name>Pastikan user dapat mengedit data guru</name>
-   <tag></tag>
-   <comment></comment>
-   <testCaseGuid>5ec9d5e2-3e5b-430a-872f-f1e5334fb19a</testCaseGuid>
-</TestCaseEntity>

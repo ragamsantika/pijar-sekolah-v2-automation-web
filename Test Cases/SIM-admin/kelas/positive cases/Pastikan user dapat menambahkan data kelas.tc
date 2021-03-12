@@ -1,8 +1,0 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<TestCaseEntity>
-   <description>User add data kelas</description>
-   <name>Pastikan user dapat menambahkan data kelas</name>
-   <tag></tag>
-   <comment></comment>
-   <testCaseGuid>971f5828-d553-4602-9217-105615c5e776</testCaseGuid>
-</TestCaseEntity>
