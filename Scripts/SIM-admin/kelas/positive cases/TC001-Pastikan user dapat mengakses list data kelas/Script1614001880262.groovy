@@ -20,5 +20,25 @@ WebUI.click(findTestObject('admin/Page_Beranda - PIJAR/span_Data Siswa'))
 
 WebUI.click(findTestObject('admin/Page_Beranda - PIJAR/span_Data Kelas'))
 
+WebUI.click(findTestObject('admin/Page_Data Kelas - PIJAR/Tombol/button_n'))
+
+WebUI.click(findTestObject('admin/Page_Data Kelas - PIJAR/Tombol/Page_Data Kelas - PIJAR/div_page2'))
+
+WebUI.click(findTestObject('admin/Page_Data Kelas - PIJAR/Tombol/button_p'))
+
+WebUI.click(findTestObject('admin/Page_Beranda - PIJAR/span_Data Kelas'))
+
+WebUI.click(findTestObject('admin/Page_Data Kelas - PIJAR/Tombol/button_number'))
+
+WebUI.click(findTestObject('admin/Page_Data Kelas - PIJAR/Tombol/Page_Data Kelas - PIJAR/div_page2'))
+
+WebUI.click(findTestObject('admin/Page_Data Kelas - PIJAR/Tombol/button_pL'))
+
+WebUI.click(findTestObject('admin/Page_Beranda - PIJAR/span_Data Kelas'))
+
+WebUI.click(findTestObject('admin/Page_Data Kelas - PIJAR/Tombol/button_nL'))
+
+WebUI.click(findTestObject('admin/Page_Data Kelas - PIJAR/Tombol/Page_Data Kelas - PIJAR/div_page2'))
+
 WebUI.refresh()
 

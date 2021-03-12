@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>TC001-Pastikan user dapat mengakses virtual kelas</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>068c4060-36d3-4b26-938b-4f9ea2db9d57</testCaseGuid>
+</TestCaseEntity>

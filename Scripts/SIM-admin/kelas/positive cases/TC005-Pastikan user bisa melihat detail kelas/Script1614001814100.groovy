@@ -16,11 +16,20 @@ import com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords as WebUI
 import com.kms.katalon.core.windows.keyword.WindowsBuiltinKeywords as Windows
 import internal.GlobalVariable as GlobalVariable
 
+WebUI.callTestCase(findTestCase('CustomKeyword/Open Browser'), [:], FailureHandling.STOP_ON_FAILURE)
+
+WebUI.callTestCase(findTestCase('CustomKeyword/Navigate to URL SIM'), [:], FailureHandling.STOP_ON_FAILURE)
+
+WebUI.callTestCase(findTestCase('SIM-admin/data guru/positive cases/TC001-Pastikan user dapat mengakses list data guru'), 
+    [:], FailureHandling.STOP_ON_FAILURE)
+
 WebUI.click(findTestObject('admin/Page_Beranda - PIJAR/span_Data Siswa'))
 
 WebUI.click(findTestObject('admin/Page_Beranda - PIJAR/span_Data Kelas'))
 
 WebUI.click(findTestObject('admin/Page_Data Kelas - PIJAR/DUD/button_btnDetailKelas'))
+
+WebUI.acceptAlert()
 
 WebUI.refresh()
 

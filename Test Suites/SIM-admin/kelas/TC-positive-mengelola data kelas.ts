@@ -50,13 +50,13 @@
    <testCaseLink>
       <guid>8bb97e23-d8ed-4c05-be93-3738c07665b6</guid>
       <isReuseDriver>false</isReuseDriver>
-      <isRun>true</isRun>
+      <isRun>false</isRun>
       <testCaseId>Test Cases/SIM-admin/kelas/positive cases/TC002-Pastikan user dapat menambahkan data kelas</testCaseId>
    </testCaseLink>
    <testCaseLink>
       <guid>a40c9a78-910b-47c4-b000-4d7bc269e7a9</guid>
       <isReuseDriver>false</isReuseDriver>
-      <isRun>true</isRun>
+      <isRun>false</isRun>
       <testCaseId>Test Cases/SIM-admin/kelas/positive cases/TC003-Pastikan user dapat menampahkan data dengan import data</testCaseId>
       <variableLink>
          <testDataLinkId></testDataLinkId>
@@ -68,25 +68,31 @@
    <testCaseLink>
       <guid>09d96031-6013-4057-9833-f6608c86194b</guid>
       <isReuseDriver>false</isReuseDriver>
-      <isRun>true</isRun>
+      <isRun>false</isRun>
       <testCaseId>Test Cases/SIM-admin/kelas/positive cases/TC004-Pastikan user dapat menggunakan fitur search kelas</testCaseId>
    </testCaseLink>
    <testCaseLink>
       <guid>18e7550d-841f-4bfb-a41a-6aa232c291c5</guid>
       <isReuseDriver>false</isReuseDriver>
-      <isRun>true</isRun>
+      <isRun>false</isRun>
       <testCaseId>Test Cases/SIM-admin/kelas/positive cases/TC005-Pastikan user bisa melihat detail kelas</testCaseId>
    </testCaseLink>
    <testCaseLink>
       <guid>b73ad79b-3649-48d3-ac41-068cd6419189</guid>
       <isReuseDriver>false</isReuseDriver>
-      <isRun>true</isRun>
+      <isRun>false</isRun>
       <testCaseId>Test Cases/SIM-admin/kelas/positive cases/TC006-Pastikan user bisa edit data kelas</testCaseId>
    </testCaseLink>
    <testCaseLink>
       <guid>f7e276f5-e6cd-4397-843c-b6d32adf7f52</guid>
       <isReuseDriver>false</isReuseDriver>
-      <isRun>true</isRun>
+      <isRun>false</isRun>
       <testCaseId>Test Cases/SIM-admin/kelas/positive cases/TC007-Pastikan user bisa menghapus data kelas</testCaseId>
+   </testCaseLink>
+   <testCaseLink>
+      <guid>a5446be2-b86c-4192-bda7-851b78df0f0a</guid>
+      <isReuseDriver>false</isReuseDriver>
+      <isRun>true</isRun>
+      <testCaseId>Test Cases/CustomKeyword/Navigate to URL SIM</testCaseId>
    </testCaseLink>
 </TestSuiteEntity>
