@@ -41,10 +41,4 @@
          <variableId>98958674-7371-4675-a36b-07727b065d71</variableId>
       </variableLink>
    </testCaseLink>
-   <testCaseLink>
-      <guid>ed730c2b-b83a-4217-bb63-1b1e3d9d5b87</guid>
-      <isReuseDriver>false</isReuseDriver>
-      <isRun>true</isRun>
-      <testCaseId>Test Cases/SIM-admin/kelas/positive cases/TC001-Pastikan user dapat mengakses list data kelas</testCaseId>
-   </testCaseLink>
 </TestSuiteEntity>

@@ -41,10 +41,4 @@
          <variableId>98958674-7371-4675-a36b-07727b065d71</variableId>
       </variableLink>
    </testCaseLink>
-   <testCaseLink>
-      <guid>a9cc3ff0-61f7-4e03-83b0-6433872a808d</guid>
-      <isReuseDriver>false</isReuseDriver>
-      <isRun>true</isRun>
-      <testCaseId>Test Cases/SIM-admin/kelas/positive cases/TC002-Pastikan user dapat menambahkan data kelas</testCaseId>
-   </testCaseLink>
 </TestSuiteEntity>

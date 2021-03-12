@@ -1,8 +1,0 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<TestCaseEntity>
-   <description>User view detail data kelas</description>
-   <name>TC005-Pastikan user bisa melihat detail kelas</name>
-   <tag></tag>
-   <comment></comment>
-   <testCaseGuid>528ad9c9-229a-4a08-b8b0-0a1da30f7e5a</testCaseGuid>
-</TestCaseEntity>
