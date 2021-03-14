@@ -23,7 +23,6 @@ WebUI.callTestCase(findTestCase('CustomKeyword/Navigate to URL SIM'), [:], Failu
 WebUI.callTestCase(findTestCase('SIM-guru/login/positive cases/Pastikan guru bisa login'), [('username') : 'jono@gmail.com'
         , ('password') : '160294'], FailureHandling.STOP_ON_FAILURE)
 
-<<<<<<< HEAD:Scripts/SIM-guru/profil guru/positive cases/Pastikan user guru dapat mengakses profil/Script1615013259445.groovy
 WebUI.callTestCase(findTestCase('SIM-guru/login/positive cases/TC-Pop-up kehadiran'), [:], FailureHandling.STOP_ON_FAILURE)
 
 WebUI.click(findTestObject('guru/Page_Beranda - PIJAR/span_Data Guru'))
@@ -35,7 +34,7 @@ WebUI.verifyElementText(findTestObject('guru/Page_Daftar Guru - PIJAR/td_Jono'),
 WebUI.verifyElementText(findTestObject('guru/Page_Daftar Guru - PIJAR/td_jonogmailcom'), 'jono@gmail.com')
 
 WebUI.refresh()
-=======
+
 WebUI.click(findTestObject('admin/Page_Beranda - PIJAR/span_Kelas Virtual'))
 
 WebUI.click(findTestObject('admin/Page_Class Virtual - PIJAR/Halaman Kelas Virtual'))
@@ -43,5 +42,4 @@ WebUI.click(findTestObject('admin/Page_Class Virtual - PIJAR/Halaman Kelas Virtu
 WebUI.focus(findTestObject('admin/Page_Class Virtual - PIJAR/Tombol/button_titik_tiga'))
 
 WebUI.click(findTestObject('admin/Page_Class Virtual - PIJAR/Tombol/button_Masuk'))
->>>>>>> 8c7f5377b6d17e983b52784fcb530bebe783ad9b:Scripts/SIM-admin/virtual kelas/positive cases/TC003-Pastikan user dapat masuk ke link virtual kelas/Script1615516154497.groovy
 
