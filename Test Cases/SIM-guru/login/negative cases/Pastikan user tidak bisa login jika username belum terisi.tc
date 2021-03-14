@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>Pastikan user tidak bisa login jika username belum terisi</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>f373f79b-e01c-4478-9a1a-50467bb8a94c</testCaseGuid>
+</TestCaseEntity>

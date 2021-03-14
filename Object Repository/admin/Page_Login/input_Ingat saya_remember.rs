@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>input_Ingat saya_remember</name>
+   <tag></tag>
+   <elementGuidId>9bc1846c-53e6-48cb-a950-39a63ce5702a</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>XPATH</key>
+         <value>//input[@name='remember']</value>
+      </entry>
+      <entry>
+         <key>CSS</key>
+         <value>input[name=&quot;remember&quot;]</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>input</value>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>class</name>
+      <type>Main</type>
+      <value>_1XwBK1M0QbDRLKdqq8Z2iJ form-checkbox</value>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>name</name>
+      <type>Main</type>
+      <value>remember</value>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>type</name>
+      <type>Main</type>
+      <value>checkbox</value>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>id(&quot;app&quot;)/div[@class=&quot;GO9ukF5A0Q3PLYs7W5g7N&quot;]/div[@class=&quot;container flex flex-col md:flex-row justify-center items-center mx-auto h-screen&quot;]/div[@class=&quot;px-2 w-full md:w-auto flex flex-col md:h-full justify-center&quot;]/div[@class=&quot;card w-auto _20XA_3KoZzXhNRzUWepDvv&quot;]/div[@class=&quot;relative&quot;]/div[@class=&quot;_9yz4OCIfTxlZZ-4tjpF8t  h-full&quot;]/div[@class=&quot;w-full&quot;]/form[@class=&quot;_3HCPc_mMHJ3JFeiPOa9h9d&quot;]/section[@class=&quot;flex items-center justify-between py-1&quot;]/span[1]/input[@class=&quot;_1XwBK1M0QbDRLKdqq8Z2iJ form-checkbox&quot;]</value>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:attributes</name>
+      <type>Main</type>
+      <value>//input[@name='remember']</value>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:idRelative</name>
+      <type>Main</type>
+      <value>//div[@id='app']/div/div/div/div/div/div/div/form/section[4]/span/input</value>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <type>Main</type>
+      <value>//span/input</value>
+   </webElementXpaths>
+</WebElementEntity>
