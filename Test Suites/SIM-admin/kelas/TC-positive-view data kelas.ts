@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <TestSuiteEntity>
    <description>admin mengelola data kelas</description>
-   <name>TC-positive-mengelola data kelas</name>
+   <name>TC-positive-view data kelas</name>
    <tag></tag>
    <isRerun>false</isRerun>
    <mailRecipient></mailRecipient>
@@ -49,30 +49,6 @@
       <testCaseId>Test Cases/SIM-admin/kelas/positive cases/Pastikan user dapat mengakses list data kelas</testCaseId>
    </testCaseLink>
    <testCaseLink>
-      <guid>8bb97e23-d8ed-4c05-be93-3738c07665b6</guid>
-      <isReuseDriver>false</isReuseDriver>
-      <isRun>true</isRun>
-      <testCaseId>Test Cases/SIM-admin/kelas/positive cases/Pastikan user dapat menambahkan data kelas</testCaseId>
-   </testCaseLink>
-   <testCaseLink>
-      <guid>a40c9a78-910b-47c4-b000-4d7bc269e7a9</guid>
-      <isReuseDriver>false</isReuseDriver>
-      <isRun>true</isRun>
-      <testCaseId>Test Cases/SIM-admin/kelas/positive cases/Pastikan user dapat menampahkan data dengan import data</testCaseId>
-      <variableLink>
-         <testDataLinkId></testDataLinkId>
-         <type>DEFAULT</type>
-         <value></value>
-         <variableId>25dfa0ec-8127-47b7-ad58-9c33560da1c7</variableId>
-      </variableLink>
-      <variableLink>
-         <testDataLinkId></testDataLinkId>
-         <type>DEFAULT</type>
-         <value></value>
-         <variableId>738fd22e-8a93-4a60-8303-5de8a9447236</variableId>
-      </variableLink>
-   </testCaseLink>
-   <testCaseLink>
       <guid>09d96031-6013-4057-9833-f6608c86194b</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
@@ -84,6 +60,7 @@
       <isRun>true</isRun>
       <testCaseId>Test Cases/SIM-admin/kelas/positive cases/Pastikan user bisa melihat detail kelas</testCaseId>
    </testCaseLink>
+<<<<<<< HEAD:Test Suites/SIM-admin/kelas/TC-positive-mengelola data kelas.ts
    <testCaseLink>
       <guid>b73ad79b-3649-48d3-ac41-068cd6419189</guid>
       <isReuseDriver>false</isReuseDriver>
@@ -99,4 +76,6 @@
       <testCaseId>Test Cases/CustomKeyword/Navigate to URL SIM</testCaseId>
 >>>>>>> 8c7f5377b6d17e983b52784fcb530bebe783ad9b
    </testCaseLink>
+=======
+>>>>>>> origin/siswa:Test Suites/SIM-admin/kelas/TC-positive-view data kelas.ts
 </TestSuiteEntity>

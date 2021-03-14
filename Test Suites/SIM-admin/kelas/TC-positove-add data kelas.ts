@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <TestSuiteEntity>
    <description></description>
-   <name>TC-positive-delete guru</name>
+   <name>TC-positove-add data kelas</name>
    <tag></tag>
    <isRerun>false</isRerun>
    <mailRecipient></mailRecipient>
@@ -10,35 +10,41 @@
    <pageLoadTimeoutDefault>true</pageLoadTimeoutDefault>
    <rerunFailedTestCasesOnly>false</rerunFailedTestCasesOnly>
    <rerunImmediately>false</rerunImmediately>
-   <testSuiteGuid>5490f1b6-cb6c-488c-a2b6-63891ac90044</testSuiteGuid>
+   <testSuiteGuid>a9e6ffd7-dec5-4f7c-96e1-4516dacea804</testSuiteGuid>
    <testCaseLink>
-      <guid>c1edd434-bcc4-4f97-b6d8-ab924baeb093</guid>
+      <guid>3526d578-b28b-4135-b390-e3f7b5cc6297</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
       <testCaseId>Test Cases/CustomKeyword/Open Browser</testCaseId>
    </testCaseLink>
    <testCaseLink>
-      <guid>d1ac3f07-ab6d-4486-a4e7-171892adeb39</guid>
+      <guid>016ab1d5-3f47-4740-828f-69d31c39289e</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
       <testCaseId>Test Cases/CustomKeyword/Navigate to URL SIM</testCaseId>
    </testCaseLink>
    <testCaseLink>
-      <guid>4a5e59c9-5749-4109-9ba1-75469c74d0d0</guid>
+      <guid>40cbdf09-f052-4d37-9b59-2b79969e2911</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
-      <testCaseId>Test Cases/SIM-admin/login/positive cases/Pastikan admin bisa login</testCaseId>
+      <testCaseId>Test Cases/SIM-admin/kelas/positive cases/Pastikan user dapat menambahkan data kelas</testCaseId>
+   </testCaseLink>
+   <testCaseLink>
+      <guid>eff4d494-8e40-4a60-9025-ec57398b7d15</guid>
+      <isReuseDriver>false</isReuseDriver>
+      <isRun>true</isRun>
+      <testCaseId>Test Cases/SIM-admin/kelas/positive cases/Pastikan user dapat menampahkan data dengan import data</testCaseId>
       <variableLink>
          <testDataLinkId></testDataLinkId>
          <type>DEFAULT</type>
          <value></value>
-         <variableId>b2ec5de0-110a-4d8e-8125-4bdcee07185f</variableId>
+         <variableId>25dfa0ec-8127-47b7-ad58-9c33560da1c7</variableId>
       </variableLink>
       <variableLink>
          <testDataLinkId></testDataLinkId>
          <type>DEFAULT</type>
          <value></value>
-         <variableId>98958674-7371-4675-a36b-07727b065d71</variableId>
+         <variableId>738fd22e-8a93-4a60-8303-5de8a9447236</variableId>
       </variableLink>
    </testCaseLink>
 </TestSuiteEntity>

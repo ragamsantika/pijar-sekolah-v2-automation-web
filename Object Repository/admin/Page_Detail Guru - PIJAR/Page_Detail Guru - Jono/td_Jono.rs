@@ -1,21 +1,17 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <WebElementEntity>
    <description></description>
-   <name>div_SuksesProfil Guru berhasil diubah</name>
+   <name>td_Jono</name>
    <tag></tag>
-   <elementGuidId>0378776b-1042-4909-9c6f-1388dc4d93b2</elementGuidId>
+   <elementGuidId>571167e3-ca3c-4c82-8d82-312103794734</elementGuidId>
    <selectorCollection>
       <entry>
-         <key>XPATH</key>
-         <value>//div[@id='swal2-content']/div</value>
-      </entry>
-      <entry>
          <key>CSS</key>
-         <value>div.flex.flex-col.items-center.mb-6</value>
+         <value></value>
       </entry>
       <entry>
-         <key>BASIC</key>
-         <value>//*[(text() = 'Sukses!Profil Guru berhasil diubah' or . = 'Sukses!Profil Guru berhasil diubah')]</value>
+         <key>XPATH</key>
+         <value>//div[@id='app']/main/div/div/div[3]/div/table/tbody/tr/td[3]</value>
       </entry>
    </selectorCollection>
    <selectorMethod>BASIC</selectorMethod>
@@ -25,62 +21,69 @@
       <matchCondition>equals</matchCondition>
       <name>tag</name>
       <type>Main</type>
-      <value>div</value>
-   </webElementProperties>
-   <webElementProperties>
-      <isSelected>false</isSelected>
-      <matchCondition>equals</matchCondition>
-      <name>class</name>
-      <type>Main</type>
-      <value>flex flex-col items-center mb-6</value>
+      <value>td</value>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
       <name>text</name>
       <type>Main</type>
-      <value>Sukses!Profil Guru berhasil diubah</value>
+      <value>Jono</value>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath</name>
       <type>Main</type>
-      <value>id(&quot;swal2-content&quot;)/div[@class=&quot;flex flex-col items-center mb-6&quot;]</value>
+      <value>id(&quot;app&quot;)/main[@class=&quot;aNWPbcduxteqYl7DfDJiY&quot;]/div[@class=&quot;container mx-auto&quot;]/div[1]/div[@class=&quot;_1VOzFTcmVMs3m2U0ynoh9H&quot;]/div[@class=&quot;flex flex-col justify-center mt-20&quot;]/table[@class=&quot;_2NxJf7sE2IVq4L7HzycoWL&quot;]/tbody[1]/tr[1]/td[3]</value>
    </webElementProperties>
    <webElementXpaths>
       <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:idRelative</name>
       <type>Main</type>
-      <value>//div[@id='swal2-content']/div</value>
+      <value>//div[@id='app']/main/div/div/div[3]/div/table/tbody/tr/td[3]</value>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:neighbor</name>
       <type>Main</type>
-      <value>(.//*[normalize-space(text()) and normalize-space(.)='×'])[1]/following::div[3]</value>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)=':'])[1]/following::td[1]</value>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:neighbor</name>
       <type>Main</type>
-      <value>(.//*[normalize-space(text()) and normalize-space(.)='`'])[2]/following::div[12]</value>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Nama Guru'])[1]/following::td[2]</value>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:neighbor</name>
       <type>Main</type>
-      <value>(.//*[normalize-space(text()) and normalize-space(.)='Cancel'])[1]/preceding::div[4]</value>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='NIP'])[1]/preceding::td[1]</value>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)=':'])[2]/preceding::td[2]</value>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>//*/text()[normalize-space(.)='Jono']/parent::*</value>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:position</name>
       <type>Main</type>
-      <value>//div[3]/div/div[2]/div/div</value>
+      <value>//td[3]</value>
    </webElementXpaths>
 </WebElementEntity>

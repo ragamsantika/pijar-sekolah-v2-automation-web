@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <TestSuiteEntity>
    <description></description>
-   <name>TC-positive-mengelola data guru</name>
+   <name>TC-positive-edit data guru</name>
    <tag></tag>
    <isRerun>false</isRerun>
    <mailRecipient></mailRecipient>
@@ -10,21 +10,21 @@
    <pageLoadTimeoutDefault>true</pageLoadTimeoutDefault>
    <rerunFailedTestCasesOnly>false</rerunFailedTestCasesOnly>
    <rerunImmediately>false</rerunImmediately>
-   <testSuiteGuid>14408351-7bee-4503-b4df-23292f900169</testSuiteGuid>
+   <testSuiteGuid>3d02285a-82b7-4d7c-b17d-798540f72b1a</testSuiteGuid>
    <testCaseLink>
-      <guid>21f9cc25-f632-494c-944e-eeb92a27b88b</guid>
+      <guid>8231c3dd-777b-4f07-b90f-58fc9ace3aa1</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
       <testCaseId>Test Cases/CustomKeyword/Open Browser</testCaseId>
    </testCaseLink>
    <testCaseLink>
-      <guid>8d8746f2-a076-4625-921e-d09276f7897a</guid>
+      <guid>d04579e4-519c-4998-89f8-22e17b79ca31</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
       <testCaseId>Test Cases/CustomKeyword/Navigate to URL SIM</testCaseId>
    </testCaseLink>
    <testCaseLink>
-      <guid>a5e8551b-33a3-4f5b-b047-b38dd4f5d170</guid>
+      <guid>d7995d1f-9f49-4b7b-aa3a-964ef4ebbce8</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
       <testCaseId>Test Cases/SIM-admin/login/positive cases/Pastikan admin bisa login</testCaseId>
@@ -42,33 +42,9 @@
       </variableLink>
    </testCaseLink>
    <testCaseLink>
-      <guid>a827fffb-9652-4c3c-9e48-3fff953c9b7b</guid>
+      <guid>b37bde6d-ba43-4d16-8837-180e32318f9f</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
-      <testCaseId>Test Cases/SIM-admin/data guru/positive cases/Pastikan user dapat mengakses list data guru</testCaseId>
-   </testCaseLink>
-   <testCaseLink>
-      <guid>0d71899c-600e-4949-8b45-eaf6fc3bf482</guid>
-      <isReuseDriver>false</isReuseDriver>
-      <isRun>true</isRun>
-      <testCaseId>Test Cases/SIM-admin/data guru/positive cases/Pastikan user dapat menambahkan data guru</testCaseId>
-   </testCaseLink>
-   <testCaseLink>
-      <guid>33bfdd69-a45a-44af-8715-2d0e96c03b81</guid>
-      <isReuseDriver>false</isReuseDriver>
-      <isRun>true</isRun>
-      <testCaseId>Test Cases/SIM-admin/login/positive cases/Pastikan admin bisa logout</testCaseId>
-      <variableLink>
-         <testDataLinkId></testDataLinkId>
-         <type>DEFAULT</type>
-         <value></value>
-         <variableId>3223056b-75ae-481a-994e-85eb2e3d8436</variableId>
-      </variableLink>
-      <variableLink>
-         <testDataLinkId></testDataLinkId>
-         <type>DEFAULT</type>
-         <value></value>
-         <variableId>e0dfd9a7-528a-49e5-88ab-0fe2ea8fe992</variableId>
-      </variableLink>
+      <testCaseId>Test Cases/SIM-admin/data guru/positive cases/Pastikan user dapat mengedit data guru</testCaseId>
    </testCaseLink>
 </TestSuiteEntity>

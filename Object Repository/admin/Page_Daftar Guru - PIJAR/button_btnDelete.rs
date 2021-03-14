@@ -6,12 +6,15 @@
    <elementGuidId>d4a8b707-23a2-4e0b-a844-9b3e28c6faae</elementGuidId>
    <selectorCollection>
       <entry>
-         <key>XPATH</key>
-         <value>(.//*[normalize-space(text()) and normalize-space(.)='jono@gmail.com'])[1]/following::button[3]</value>
+         <key>CSS</key>
       </entry>
       <entry>
-         <key>CSS</key>
-         <value></value>
+         <key>XPATH</key>
+         <value>(.//*[normalize-space(text()) and normalize-space(.)='jona@gmail.com'])[1]/following::button[3]</value>
+      </entry>
+      <entry>
+         <key>BASIC</key>
+         <value>//*[@id = 'btnDownloadFile']</value>
       </entry>
    </selectorCollection>
    <selectorMethod>XPATH</selectorMethod>
@@ -63,7 +66,7 @@
       <matchCondition>equals</matchCondition>
       <name>xpath:neighbor</name>
       <type>Main</type>
-      <value>(.//*[normalize-space(text()) and normalize-space(.)='jono@gmail.com'])[1]/following::button[3]</value>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='jona@gmail.com'])[1]/following::button[3]</value>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
