@@ -41,4 +41,10 @@
          <variableId>98958674-7371-4675-a36b-07727b065d71</variableId>
       </variableLink>
    </testCaseLink>
+   <testCaseLink>
+      <guid>6ea1108f-12e3-489c-9231-93e7b6333809</guid>
+      <isReuseDriver>false</isReuseDriver>
+      <isRun>true</isRun>
+      <testCaseId>Test Cases/SIM-admin/data guru/positive cases/Pastikan user dapat menghapus data guru</testCaseId>
+   </testCaseLink>
 </TestSuiteEntity>

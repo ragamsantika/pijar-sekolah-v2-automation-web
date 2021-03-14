@@ -6,12 +6,12 @@
    <elementGuidId>52e2f0a4-de46-4053-b09d-aab1b9bffa22</elementGuidId>
    <selectorCollection>
       <entry>
-         <key>CSS</key>
-         <value>div.flex.flex-col.items-center.mb-6 > p</value>
-      </entry>
-      <entry>
          <key>XPATH</key>
          <value>//div[@id='swal2-content']/div/p</value>
+      </entry>
+      <entry>
+         <key>CSS</key>
+         <value>div.flex.flex-col.items-center.mb-6 > p</value>
       </entry>
       <entry>
          <key>BASIC</key>

@@ -6,10 +6,6 @@
    <elementGuidId>253bbfb8-131c-4222-ba29-03023b514a5e</elementGuidId>
    <selectorCollection>
       <entry>
-         <key>BASIC</key>
-         <value>//*[@type = 'button' and (text() = 'OK' or . = 'OK')]</value>
-      </entry>
-      <entry>
          <key>XPATH</key>
          <value>(//button[@type='button'])[4]</value>
       </entry>
@@ -18,7 +14,7 @@
          <value>button.swal2-confirm._20MY8X0j9D39r3x3P63Z1d.swal2-styled</value>
       </entry>
    </selectorCollection>
-   <selectorMethod>BASIC</selectorMethod>
+   <selectorMethod>XPATH</selectorMethod>
    <useRalativeImagePath>true</useRalativeImagePath>
    <webElementProperties>
       <isSelected>false</isSelected>

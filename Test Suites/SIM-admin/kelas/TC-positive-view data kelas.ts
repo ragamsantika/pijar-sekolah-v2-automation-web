@@ -42,10 +42,9 @@
       </variableLink>
    </testCaseLink>
    <testCaseLink>
-      <guid>a5446be2-b86c-4192-bda7-851b78df0f0a</guid>
+      <guid>8c795994-6f58-444f-ae2a-a95f581b07c7</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
-<<<<<<< HEAD
       <testCaseId>Test Cases/SIM-admin/kelas/positive cases/Pastikan user dapat mengakses list data kelas</testCaseId>
    </testCaseLink>
    <testCaseLink>
@@ -60,22 +59,4 @@
       <isRun>true</isRun>
       <testCaseId>Test Cases/SIM-admin/kelas/positive cases/Pastikan user bisa melihat detail kelas</testCaseId>
    </testCaseLink>
-<<<<<<< HEAD:Test Suites/SIM-admin/kelas/TC-positive-mengelola data kelas.ts
-   <testCaseLink>
-      <guid>b73ad79b-3649-48d3-ac41-068cd6419189</guid>
-      <isReuseDriver>false</isReuseDriver>
-      <isRun>true</isRun>
-      <testCaseId>Test Cases/SIM-admin/kelas/positive cases/Pastikan user bisa edit data kelas</testCaseId>
-   </testCaseLink>
-   <testCaseLink>
-      <guid>f7e276f5-e6cd-4397-843c-b6d32adf7f52</guid>
-      <isReuseDriver>false</isReuseDriver>
-      <isRun>true</isRun>
-      <testCaseId>Test Cases/SIM-admin/kelas/positive cases/Pastikan user bisa menghapus data kelas</testCaseId>
-=======
-      <testCaseId>Test Cases/CustomKeyword/Navigate to URL SIM</testCaseId>
->>>>>>> 8c7f5377b6d17e983b52784fcb530bebe783ad9b
-   </testCaseLink>
-=======
->>>>>>> origin/siswa:Test Suites/SIM-admin/kelas/TC-positive-view data kelas.ts
 </TestSuiteEntity>

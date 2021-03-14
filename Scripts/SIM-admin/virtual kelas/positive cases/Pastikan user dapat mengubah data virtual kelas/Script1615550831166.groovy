@@ -17,21 +17,26 @@ import com.kms.katalon.core.windows.keyword.WindowsBuiltinKeywords as Windows
 import internal.GlobalVariable as GlobalVariable
 import org.openqa.selenium.Keys as Keys
 
-'User click Data Guru on side menu'
-WebUI.click(findTestObject('admin/Page_Beranda - PIJAR/span_Data Guru'))
+WebUI.callTestCase(findTestCase('CustomKeyword/Open Browser'), [:], FailureHandling.STOP_ON_FAILURE)
 
-'User click Profil Guru on side menu'
-WebUI.click(findTestObject('admin/Page_Beranda - PIJAR/span_Profil Guru'))
+WebUI.callTestCase(findTestCase('CustomKeyword/Navigate to URL SIM'), [:], FailureHandling.STOP_ON_FAILURE)
 
-'User set text untuk find guru dengan nama \'Jono\''
-WebUI.setText(findTestObject('admin/Page_Daftar Guru - PIJAR/input_Tambah Data_search'), 'Jono')
+WebUI.callTestCase(findTestCase('SIM-admin/login/positive cases/TC001-Pastikan admin bisa login'), [('username') : 'pijarsekolahv2@gmail.com'
+        , ('password') : 'password'], FailureHandling.STOP_ON_FAILURE)
 
-'User click icon "Eye" untuk melihat detail guru Jono'
-WebUI.click(findTestObject('admin/Page_Daftar Guru - PIJAR/button_btnDetail'))
+WebUI.click(findTestObject('admin/Page_Beranda - PIJAR/span_Kelas Virtual'))
 
-'User click button "Kembali"'
+WebUI.click(findTestObject('admin/Page_Class Virtual - PIJAR/Halaman Kelas Virtual'))
 
-WebUI.click(findTestObject('admin/Page_Detail Guru - PIJAR/button_Kembali'))
+WebUI.delay(1)
 
-WebUI.refresh()
+WebUI.focus(findTestObject('admin/Page_Class Virtual - PIJAR/Tombol/button_titik_tiga'))
+
+WebUI.click(findTestObject('admin/Page_Class Virtual - PIJAR/Tombol/button_Edit'))
+
+WebUI.click(findTestObject('admin/Page_Edit Kelas Virtual - PIJAR/Halaman Form Edit Kelas Virtual'))
+
+WebUI.click(findTestObject('admin/Page_Edit Kelas Virtual - PIJAR/Pilih_kelas'))
+
+WebUI.click(findTestObject('admin/Page_Edit Kelas Virtual - PIJAR/div_I-B'))
 
