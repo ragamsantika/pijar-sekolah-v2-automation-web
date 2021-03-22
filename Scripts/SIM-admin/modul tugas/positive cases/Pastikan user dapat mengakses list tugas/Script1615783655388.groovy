@@ -17,20 +17,19 @@ import com.kms.katalon.core.windows.keyword.WindowsBuiltinKeywords as Windows
 import internal.GlobalVariable as GlobalVariable
 import org.openqa.selenium.Keys as Keys
 
-'User click Data Guru on side menu'
-WebUI.click(findTestObject('admin/Page_Beranda - PIJAR/span_Data Guru'))
+WebUI.click(findTestObject('admin/Page_Beranda - PIJAR/span_ModulTugas'))
 
-'User click Profil Guru on side menu'
-WebUI.click(findTestObject('admin/Page_Beranda - PIJAR/span_Profil Siswa'))
+WebUI.click(findTestObject('admin/Page_Beranda - PIJAR/span_Daftar ModulTugas'))
 
-'User set text untuk find guru dengan nama \'Jono\''
-WebUI.setText(findTestObject('admin/Page_Daftar Guru - PIJAR/input_Tambah Data_search'), 'Jono')
+WebUI.click(findTestObject('admin/Page_Daftar Tugas - PIJAR/button_paging_2'))
 
-'User click icon "Eye" untuk melihat detail guru Jono'
-WebUI.click(findTestObject('admin/Page_Daftar Guru - PIJAR/button_btnDetail'))
+WebUI.click(findTestObject('admin/Page_Daftar Tugas - PIJAR/button_paging_1'))
 
-'User click button "Kembali"'
-WebUI.click(findTestObject('admin/Page_Detail Guru - PIJAR/button_Kembali'))
+WebUI.click(findTestObject('admin/Page_Daftar Tugas - PIJAR/button_n'))
 
-WebUI.refresh()
+WebUI.click(findTestObject('admin/Page_Daftar Tugas - PIJAR/button_p'))
+
+WebUI.click(findTestObject('admin/Page_Daftar Tugas - PIJAR/button_n_l'))
+
+WebUI.click(findTestObject('admin/Page_Daftar Tugas - PIJAR/button_p_l'))
 

@@ -21,8 +21,8 @@ WebUI.callTestCase(findTestCase('CustomKeyword/Open Browser'), [:], FailureHandl
 
 WebUI.callTestCase(findTestCase('CustomKeyword/Navigate to URL SIM'), [:], FailureHandling.STOP_ON_FAILURE)
 
-WebUI.callTestCase(findTestCase('SIM-admin/login/positive cases/TC001-Pastikan admin bisa login'), [('username') : 'pijarsekolahv2@gmail.com'
-        , ('password') : 'password'], FailureHandling.STOP_ON_FAILURE)
+WebUI.callTestCase(findTestCase('SIM-admin/login/positive cases/Pastikan admin bisa login'), [('username') : 'pijarsekolahv2@gmail.com'
+        , ('password') : '12345'], FailureHandling.STOP_ON_FAILURE)
 
 WebUI.click(findTestObject('admin/Page_Beranda - PIJAR/span_Pengumuman'))
 
@@ -36,7 +36,7 @@ WebUI.click(findTestObject('admin/Page_Tambah Pengumuman - PIJAR/div_Semua'))
 
 WebUI.setText(findTestObject('admin/Page_Tambah Pengumuman - PIJAR/input__judul'), 'Mencoba Data Pengumuman')
 
-WebUI.setText(findTestObject('admin/Page_Tambah Pengumuman - PIJAR/input__tanggal'), '15/03/2021')
+WebUI.setText(findTestObject('admin/Page_Tambah Pengumuman - PIJAR/input__tanggal'), '29/03/2021')
 
 WebUI.delay(1)
 
@@ -48,7 +48,7 @@ WebUI.focus(findTestObject('admin/Page_Tambah Pengumuman - PIJAR/upload file'))
 
 WebUI.uploadFile(findTestObject('admin/Page_Tambah Pengumuman - PIJAR/upload file pengumuman'), file)
 
-WebUI.delay(2)
+WebUI.delay(1)
 
 WebUI.click(findTestObject('admin/Page_Tambah Pengumuman - PIJAR/button_Simpan_pengumuman'))
 

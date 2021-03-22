@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>Pastikan user dapat mengubah data tugas</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>51b8bc4c-24a7-4f0c-9457-ff892454cf1b</testCaseGuid>
+   <variable>
+      <defaultValue>'C:\\\\Users\\\\lenovo\\\\Downloads\\\\Pijar Sekolah\\\\Pink Sweat$ - At My Worst (Karaoke).mp3'</defaultValue>
+      <description></description>
+      <id>33e7148b-5403-4bf1-b3d3-c2ac1502d48c</id>
+      <masked>false</masked>
+      <name>file</name>
+   </variable>
+</TestCaseEntity>

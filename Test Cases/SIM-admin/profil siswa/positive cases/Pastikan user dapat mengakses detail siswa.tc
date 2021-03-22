@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>Pastikan user dapat mengakses detail siswa</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>b2af96fe-9e32-4623-b0f0-805d0698df25</testCaseGuid>
+</TestCaseEntity>

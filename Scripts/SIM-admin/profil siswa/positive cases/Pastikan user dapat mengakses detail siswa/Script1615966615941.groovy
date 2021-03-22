@@ -17,20 +17,21 @@ import com.kms.katalon.core.windows.keyword.WindowsBuiltinKeywords as Windows
 import internal.GlobalVariable as GlobalVariable
 import org.openqa.selenium.Keys as Keys
 
-'User click Data Guru on side menu'
-WebUI.click(findTestObject('admin/Page_Beranda - PIJAR/span_Data Guru'))
+WebUI.click(findTestObject('admin/Page_Beranda - PIJAR/span_Data Siswa'))
 
-'User click Profil Guru on side menu'
 WebUI.click(findTestObject('admin/Page_Beranda - PIJAR/span_Profil Siswa'))
 
-'User set text untuk find guru dengan nama \'Jono\''
-WebUI.setText(findTestObject('admin/Page_Daftar Guru - PIJAR/input_Tambah Data_search'), 'Jono')
+WebUI.delay(1)
 
-'User click icon "Eye" untuk melihat detail guru Jono'
-WebUI.click(findTestObject('admin/Page_Daftar Guru - PIJAR/button_btnDetail'))
+WebUI.setText(findTestObject('admin/Page_Profil Siswa - PIJAR/input_cari'), 'Siswa')
 
-'User click button "Kembali"'
-WebUI.click(findTestObject('admin/Page_Detail Guru - PIJAR/button_Kembali'))
+WebUI.sendKeys(findTestObject('admin/Page_Profil Siswa - PIJAR/input_cari'), Keys.chord(Keys.CONTROL, 'Siswa', Keys.DELETE))
+
+WebUI.setText(findTestObject('admin/Page_Profil Siswa - PIJAR/input_cari'), 'QA')
+
+WebUI.click(findTestObject('admin/Page_Profil Siswa - PIJAR/button_DetailTugas'))
+
+WebUI.click(findTestObject('admin/Page_Detail Profil Siswa - PIJAR/button_Kembali'))
 
 WebUI.refresh()
 
