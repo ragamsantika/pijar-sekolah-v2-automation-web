@@ -16,11 +16,15 @@ import com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords as WebUI
 import com.kms.katalon.core.windows.keyword.WindowsBuiltinKeywords as Windows
 import internal.GlobalVariable as GlobalVariable
 
-WebUI.setText(findTestObject('siswa/Login/input_Ingat saya_username'), '9796')
+WebUI.callTestCase(findTestCase('CustomKeyword/Open Browser'), [:], FailureHandling.STOP_ON_FAILURE)
 
-WebUI.setText(findTestObject('siswa/Login/input_Ingat saya_password'), '9796')
+WebUI.callTestCase(findTestCase('CustomKeyword/Navigate to URL Siswa'), [:], FailureHandling.CONTINUE_ON_FAILURE)
+
+WebUI.setText(findTestObject('siswa/Login/input_Ingat saya_username'), GlobalVariable.Username)
+
+WebUI.setText(findTestObject('siswa/Login/input_Ingat saya_password'), GlobalVariable.Password)
 
 WebUI.click(findTestObject('siswa/Login/button_Masuk'))
 
-WebUI.delay(5)
+WebUI.delay(10)
 

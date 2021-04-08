@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>img_Jadwal_transition duration-500 ease-in-out transform rotate-0</name>
+   <tag></tag>
+   <elementGuidId>96713b88-48c2-41aa-8cb9-392ef012e1ec</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>XPATH</key>
+         <value>//div[@id='app']/main/span/ul/li[7]/div/div[2]/span[2]/img</value>
+      </entry>
+      <entry>
+         <key>CSS</key>
+         <value></value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>img</value>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>class</name>
+      <type>Main</type>
+      <value>transition duration-500 ease-in-out transform rotate-0</value>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>src</name>
+      <type>Main</type>
+      <value>http://minio-storage-core-tribe-edu-dev.vsan-apps.playcourt.id/web-assets/assets/ic_sidebar_dropdown.svg</value>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>id(&quot;app&quot;)/main[@class=&quot;aNWPbcduxteqYl7DfDJiY&quot;]/span[@class=&quot;_2q5PBsfCg7FkM7cwh9LM8J&quot;]/ul[@class=&quot;_36oOn0NhnHWjwZOa7cCtW5&quot;]/li[7]/div[@class=&quot;h-3 flex flex-row items-center px-4 my-4 text-white outline-none cursor-pointer&quot;]/div[@class=&quot;w-full flex items-center&quot;]/span[@class=&quot;w-1/12 text-left&quot;]/img[@class=&quot;transition duration-500 ease-in-out transform rotate-0&quot;]</value>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:idRelative</name>
+      <type>Main</type>
+      <value>//div[@id='app']/main/span/ul/li[7]/div/div[2]/span[2]/img</value>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:img</name>
+      <type>Main</type>
+      <value>(//img[contains(@src,'http://minio-storage-core-tribe-edu-dev.vsan-apps.playcourt.id/web-assets/assets/ic_sidebar_dropdown.svg')])[3]</value>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <type>Main</type>
+      <value>//li[7]/div/div[2]/span[2]/img</value>
+   </webElementXpaths>
+</WebElementEntity>

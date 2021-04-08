@@ -15,6 +15,13 @@ import com.kms.katalon.core.webservice.keyword.WSBuiltInKeywords as WS
 import com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords as WebUI
 import com.kms.katalon.core.windows.keyword.WindowsBuiltinKeywords as Windows
 import internal.GlobalVariable as GlobalVariable
+import org.openqa.selenium.Keys as Keys
 
-WebUI.navigateToUrl(GlobalVariable.BASEURL_Siswa)
+WebUI.callTestCase(findTestCase('siswa/login/positive cases/TC001-Login Siswa'), [:], FailureHandling.STOP_ON_FAILURE)
+
+WebUI.click(findTestObject('siswa/Beranda/button_'))
+
+WebUI.click(findTestObject('siswa/jadwal pelajaran/img_Jadwal_transition duration-500 ease-in-out transform rotate-0'))
+
+WebUI.click(findTestObject('siswa/jadwal pelajaran/span_Jadwal Pelajaran'))
 

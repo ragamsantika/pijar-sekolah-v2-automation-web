@@ -3,7 +3,7 @@
    <description></description>
    <name>develop</name>
    <tag></tag>
-   <defaultProfile>false</defaultProfile>
+   <defaultProfile>true</defaultProfile>
    <GlobalVariableEntity>
       <description></description>
       <initValue>'http://core-tribe-edu-web-dev.vsan-apps.playcourt.id/'</initValue>
@@ -18,5 +18,15 @@
       <description></description>
       <initValue>'http://core-edu-admin-web-dev.vsan-apps.playcourt.id'</initValue>
       <name>BASEURL_SIM</name>
+   </GlobalVariableEntity>
+   <GlobalVariableEntity>
+      <description></description>
+      <initValue>'5353535353'</initValue>
+      <name>Username</name>
+   </GlobalVariableEntity>
+   <GlobalVariableEntity>
+      <description></description>
+      <initValue>'5353535353'</initValue>
+      <name>Password</name>
    </GlobalVariableEntity>
 </GlobalVariableEntities>

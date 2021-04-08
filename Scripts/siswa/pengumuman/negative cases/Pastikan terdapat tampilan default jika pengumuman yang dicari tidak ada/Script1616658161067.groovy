@@ -15,6 +15,10 @@ import com.kms.katalon.core.webservice.keyword.WSBuiltInKeywords as WS
 import com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords as WebUI
 import com.kms.katalon.core.windows.keyword.WindowsBuiltinKeywords as Windows
 import internal.GlobalVariable as GlobalVariable
+import org.openqa.selenium.Keys as Keys
 
-WebUI.navigateToUrl(GlobalVariable.BASEURL_Siswa)
+WebUI.callTestCase(findTestCase('siswa/pengumuman/positive cases/pastikan siswa dapat mengakses menu pengumuman'), [:], 
+    FailureHandling.STOP_ON_FAILURE)
+
+WebUI.setText(findTestObject('siswa/Pengumuman/Page_Pengumuman - PIJAR/input'), 'not found')
 

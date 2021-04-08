@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>Pastikan terdapat tampilan default jika pengumuman yang dicari tidak ada</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>12a12795-ca93-4344-a013-3f8d11ee7f32</testCaseGuid>
+</TestCaseEntity>
